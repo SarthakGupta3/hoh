@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fca96bbd9c651fb0fe4cc75783ba99ca",
+    "revision": "288682738b1fbf3e26082d3b04caced2",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "3206384384c03cffa6ac",
-    "url": "/hoh/static/css/main.15b5119f.chunk.css"
+    "revision": "c370074d871ec8f7fe75",
+    "url": "/hoh/static/css/main.43029d45.chunk.css"
   },
   {
     "revision": "28217476916ce6fa172c",
     "url": "/hoh/static/js/2.43520752.chunk.js"
   },
   {
-    "revision": "3206384384c03cffa6ac",
-    "url": "/hoh/static/js/main.95645bbf.chunk.js"
+    "revision": "c370074d871ec8f7fe75",
+    "url": "/hoh/static/js/main.72d721f1.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27a984824371af7c69840e51d0bc85ef",
     "url": "/hoh/static/media/big_mountain.27a98482.svg"
+  },
+  {
+    "revision": "1e9b310b9f11aed889e50505cf082646",
+    "url": "/hoh/static/media/hoh.1e9b310b.png"
   },
   {
     "revision": "cb9c807cbf8fc231bff8286c059ef87d",

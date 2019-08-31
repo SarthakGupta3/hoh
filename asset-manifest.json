@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/hoh/static/css/main.15b5119f.chunk.css",
-    "main.js": "/hoh/static/js/main.95645bbf.chunk.js",
-    "main.js.map": "/hoh/static/js/main.95645bbf.chunk.js.map",
+    "main.css": "/hoh/static/css/main.43029d45.chunk.css",
+    "main.js": "/hoh/static/js/main.72d721f1.chunk.js",
+    "main.js.map": "/hoh/static/js/main.72d721f1.chunk.js.map",
     "runtime~main.js": "/hoh/static/js/runtime~main.27dce6b4.js",
     "runtime~main.js.map": "/hoh/static/js/runtime~main.27dce6b4.js.map",
     "static/js/2.43520752.chunk.js": "/hoh/static/js/2.43520752.chunk.js",
     "static/js/2.43520752.chunk.js.map": "/hoh/static/js/2.43520752.chunk.js.map",
     "index.html": "/hoh/index.html",
-    "precache-manifest.d7a5c66814862de866c2f21e06f7c940.js": "/hoh/precache-manifest.d7a5c66814862de866c2f21e06f7c940.js",
+    "precache-manifest.a41a79d16b78834e8388f47ea29b2d63.js": "/hoh/precache-manifest.a41a79d16b78834e8388f47ea29b2d63.js",
     "service-worker.js": "/hoh/service-worker.js",
-    "static/css/main.15b5119f.chunk.css.map": "/hoh/static/css/main.15b5119f.chunk.css.map",
+    "static/css/main.43029d45.chunk.css.map": "/hoh/static/css/main.43029d45.chunk.css.map",
     "static/media/big_mountain.svg": "/hoh/static/media/big_mountain.27a98482.svg",
+    "static/media/hoh.png": "/hoh/static/media/hoh.1e9b310b.png",
     "static/media/tall_tree.svg": "/hoh/static/media/tall_tree.cb9c807c.svg"
   }
 }
