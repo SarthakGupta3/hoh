@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hoh/static/css/main.142cdff7.chunk.css",
+    "main.js": "/hoh/static/js/main.e45be44d.chunk.js",
+    "main.js.map": "/hoh/static/js/main.e45be44d.chunk.js.map",
+    "runtime~main.js": "/hoh/static/js/runtime~main.27dce6b4.js",
+    "runtime~main.js.map": "/hoh/static/js/runtime~main.27dce6b4.js.map",
+    "static/js/2.f49354cd.chunk.js": "/hoh/static/js/2.f49354cd.chunk.js",
+    "static/js/2.f49354cd.chunk.js.map": "/hoh/static/js/2.f49354cd.chunk.js.map",
+    "index.html": "/hoh/index.html",
+    "precache-manifest.a91082b1aa00b222d1718700a88aa9a7.js": "/hoh/precache-manifest.a91082b1aa00b222d1718700a88aa9a7.js",
+    "service-worker.js": "/hoh/service-worker.js",
+    "static/css/main.142cdff7.chunk.css.map": "/hoh/static/css/main.142cdff7.chunk.css.map",
+    "static/media/big_mountain.svg": "/hoh/static/media/big_mountain.27a98482.svg",
+    "static/media/tall_tree.svg": "/hoh/static/media/tall_tree.cb9c807c.svg"
+  }
+}
