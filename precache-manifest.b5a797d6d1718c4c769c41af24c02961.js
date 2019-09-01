@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96e07af6f71245afc5b27a6623e987ea",
+    "revision": "dd572caccd5bddde60c07521c3fa2566",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "237739991c1bea29de83",
-    "url": "/hoh/static/css/main.1d9ddd87.chunk.css"
+    "revision": "c86ada162b399263065a",
+    "url": "/hoh/static/css/main.7b362e26.chunk.css"
   },
   {
-    "revision": "d9ef07e351f2a9f077cd",
-    "url": "/hoh/static/js/2.898676f4.chunk.js"
+    "revision": "2089f4c66c375f5e4629",
+    "url": "/hoh/static/js/2.0fb9634c.chunk.js"
   },
   {
-    "revision": "237739991c1bea29de83",
-    "url": "/hoh/static/js/main.7de26fa5.chunk.js"
+    "revision": "c86ada162b399263065a",
+    "url": "/hoh/static/js/main.b96db82f.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
     "url": "/hoh/static/js/runtime~main.27dce6b4.js"
+  },
+  {
+    "revision": "234b7bfc2e21b1c230cbff573856daad",
+    "url": "/hoh/static/media/1.234b7bfc.jpg"
   },
   {
     "revision": "2cc4a30b48e53dcf2c3db8b14d99c958",
