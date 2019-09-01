@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14fb736cb54c597b6b7337068e6998c5",
+    "revision": "3478d1372974e62e99d131a0c4a46e3f",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "3bcb5cc25abb2e48585e",
-    "url": "/hoh/static/css/main.aa3a10db.chunk.css"
+    "revision": "17d5decf93143630b325",
+    "url": "/hoh/static/css/main.099c6a8e.chunk.css"
   },
   {
-    "revision": "2089f4c66c375f5e4629",
-    "url": "/hoh/static/js/2.0fb9634c.chunk.js"
+    "revision": "ba77fc7e28c9b699bf5b",
+    "url": "/hoh/static/js/2.15ab0cb2.chunk.js"
   },
   {
-    "revision": "3bcb5cc25abb2e48585e",
-    "url": "/hoh/static/js/main.c0a03c9b.chunk.js"
+    "revision": "17d5decf93143630b325",
+    "url": "/hoh/static/js/main.7bea3180.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "234b7bfc2e21b1c230cbff573856daad",
     "url": "/hoh/static/media/1.234b7bfc.jpg"
+  },
+  {
+    "revision": "eceab1f937cb46b341b31c4ed3fbf722",
+    "url": "/hoh/static/media/Coding_blocks.eceab1f9.png"
   },
   {
     "revision": "2cc4a30b48e53dcf2c3db8b14d99c958",
@@ -40,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/blockchain-color.1c02f1bc.svg"
   },
   {
+    "revision": "459546f90b8a790cc4422c495a50695c",
+    "url": "/hoh/static/media/ebiz.459546f9.png"
+  },
+  {
     "revision": "95be97e7dadc95f1ac8d9084aaae2372",
     "url": "/hoh/static/media/general-color.95be97e7.svg"
   },
@@ -50,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ab2bdb739f7b0e909202c0289a27656",
     "url": "/hoh/static/media/iot-color.0ab2bdb7.svg"
+  },
+  {
+    "revision": "10bc7c769d69752f2f072c2648766553",
+    "url": "/hoh/static/media/simba.10bc7c76.png"
+  },
+  {
+    "revision": "482d78f113ae79c75016566769a2c120",
+    "url": "/hoh/static/media/sketch.482d78f1.png"
   },
   {
     "revision": "cb9c807cbf8fc231bff8286c059ef87d",
