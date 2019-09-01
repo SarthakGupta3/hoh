@@ -1,0 +1,49 @@
+
+#trackContain{
+    background-color:rgba(95, 150, 95, 0.733);
+}
+.track-image{
+    max-width:50%;
+    max-height: 50%;
+}
+#margin{
+    width:90%;
+    padding:1rem;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.track{
+    width:25%;
+    height: 15rem;
+    /* height:10rem; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: whitesmoke;
+    margin:1rem 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+#track-heading{
+    display: flex;
+    justify-content: center;
+    color:white;
+    padding-top:2rem;
+}
+
+
+@media screen and (max-width:800px){
+    #margin{
+        width:100%;
+        padding:0;
+        padding:2.5rem 0;
+    }
+    .track{
+        width:30%;
+        height:8rem;
+    }
+}

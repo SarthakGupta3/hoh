@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Scene from './Components/Background/background';
+import SceneMobile from './Components/Background/background-mobile';
+import Tracks from './Components/Tracks/tracks';
+import About from './Components/About/about';
+import Timeline from './Components/Timeline/timeline';
 
 function App() {
-  return (
+  return (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) ? (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SceneMobile />
+      <About />
+      <Tracks />
+      <Timeline />
+      <Tracks />
     </div>
-  );
+  ) : (<div className="App">
+    <Scene />
+    <About />
+    <Tracks/>
+    <Timeline />
+    <Tracks />
+  </div>);
 }
 
 export default App;

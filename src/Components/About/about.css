@@ -1,0 +1,47 @@
+#about{
+    display: flex;
+}
+
+.Image{
+    width:25rem;
+    height:20rem;
+    border-radius: 10rem;
+    margin-right:5rem;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    margin-top:4rem;
+    color:rgb(9, 51, 94);
+}
+
+.about-text{
+   font-size:1.2rem;
+   text-align: justify;
+    margin: 1.5rem auto;
+    padding-right:5rem;
+}
+
+@media screen and (max-width:1200px){
+    #about{
+        flex-direction: column;
+        font-size:1em;
+    }
+    .about-text{
+        padding:0;
+        font-family: 'Manjari', serif;
+        font-size: 1.1rem;
+        width:78%;
+        line-height: 1.4em;
+        /* word-spacing: 0.5rem; */
+        text-align:justify;
+        margin:1.2rem auto;
+     }
+     .Image{
+         margin:auto;
+         width:20rem;
+         height: 15rem;
+     }
+   
+}

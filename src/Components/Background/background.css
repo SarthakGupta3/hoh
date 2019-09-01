@@ -1,0 +1,308 @@
+body{
+    font-family: 'Manjari', sans-serif;
+}
+
+#stars{
+    width:100%;
+    height:50%;
+    right:0;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../../images/Stars.svg');
+}
+
+#github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    max-height: 100%;
+    justify-content: center;
+    padding-top:8rem;
+    animation: text-in;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+    position: relative;
+    z-index:3;
+}
+
+#github-text{
+    padding:0;
+    font-size:3rem;
+    color:white;
+    position: absolute;
+    z-index:3;
+    margin: 0;
+    top:100%;
+}
+@keyframes text-in{
+    0%{
+        opacity:.20;
+        visibility: hidden;
+    }
+    25%{
+        opacity:.40;
+        visibility: visible;
+    }
+    50%{
+        opacity:.60;
+        visibility: visible;
+    }
+    75%{
+        opacity:.80;
+        visibility: visible;
+    }
+    100%{
+        opacity:1;
+        visibility: visible;
+    }
+}
+#logoContain{
+    position: absolute;
+    z-index:3;
+    top:180%;
+    background-color: whitesmoke;
+    border-radius:20rem;
+    width:11rem;
+    height: 11rem;
+    background-image: url('../../images/hoh.png');
+    background-size: cover;
+    animation-name: hover;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hover{
+   0%{
+       transform: translateY(0rem);
+   }
+   33%{
+       transform: translateY(0.10rem);
+   }
+   66%{
+       transform: translateY(0.25rem);
+   }
+   100%{
+       transform: translateY(0.10rem);
+   }
+}
+
+.SceneHolder{
+    background-color:rgb(9, 51, 94);
+    width:100%;
+    height:100vh;
+    position: relative;
+    overflow-x:hidden;
+}
+
+#bigMountain{
+    position: absolute;
+    z-index:1;
+    height:35rem;
+    bottom:0;
+    left:5%;
+    animation-name:pop-1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: infinite; */
+    visibility: hidden;
+}
+
+#mediumMountain{
+    position: absolute;
+    z-index: 1;
+    height: 25rem;
+    bottom:0;
+    right:5%;
+    animation-name:pop-1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#tallTree1{
+    position: absolute;
+    z-index:2;
+    height:18rem;
+    bottom:0;
+    left:0;
+    right:0;
+    animation-name:pop-2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+#mediumTree1{
+    position: absolute;
+    z-index:2;
+    height: 12rem;
+    bottom:0;
+    right:0; 
+    animation-name:pop-2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;   
+}
+
+#tallTree2{  
+    position: absolute;
+    z-index:3;
+    height: 18rem;
+    bottom:0;
+    right:40%;
+    animation-name:pop-2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;  
+}
+
+#mediumTree2{
+    position: absolute;
+    z-index:2;
+    height: 12rem;
+    bottom:0;
+    right:50%;  
+    animation-name:pop-2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+#mediumTree3{
+    position: absolute;
+    z-index:2;
+    height: 12rem;
+    bottom:0;
+    right:35%;  
+    animation-name:pop-2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@media screen and (max-width:60rem){
+    #mediumTree1{
+        position: absolute;
+        z-index:2;
+        height: 12rem;
+        bottom:0;
+        right:15%;   
+     
+    }
+    
+    #tallTree2{  
+        position: absolute;
+        z-index:3;
+        height: 18rem;
+        bottom:0;
+        right:0;  
+      
+    }
+    
+    #mediumTree2{
+        position: absolute;
+        z-index:2;
+        height: 12rem;
+        bottom:0;
+        left:15%;  
+     
+    }
+    #mediumTree3{
+        position: absolute;
+        z-index:2;
+        height: 10rem;
+        bottom:0;
+        right:25%; 
+ 
+    }
+}
+
+@media screen and (min-height:992px){
+    #bigMountain{
+        position: absolute;
+        z-index:1;
+        height:60rem;
+        bottom:0;
+        left:5%;
+    }
+    
+    #mediumMountain{
+        position: absolute;
+        z-index: 1;
+        height: 40rem;
+        bottom:0;
+        right:5%;
+    }
+    
+    #tallTree1{
+        position: absolute;
+        z-index:2;
+        height:28rem;
+        bottom:0;
+        left:0;
+        right:0;
+
+    }
+    
+    #mediumTree1{
+        position: absolute;
+        z-index:2;
+        height: 20rem;
+        bottom:0;
+        right:0;  
+  
+    }
+    
+    #tallTree2{  
+        position: absolute;
+        z-index:3;
+        height: 28rem;
+        bottom:0;
+        right:40%;  
+ 
+    }
+    
+    #mediumTree2{
+        position: absolute;
+        z-index:2;
+        height: 18rem;
+        bottom:0;
+        right:50%; 
+       
+    }
+    #mediumTree3{
+        position: absolute;
+        z-index:2;
+        height: 20rem;
+        bottom:0;
+        right:35%;  
+    }
+}
+
+@keyframes pop-1{
+    0%{
+        transform: translateY(10rem);
+        visibility: visible;
+        bottom:0;
+    }
+    100%{
+        transform: translateY(0rem);
+        visibility: visible;
+        bottom:0;
+    }
+}
+
+@keyframes pop-2{
+    from{
+        transform: translateY(10rem);
+        visibility: visible;
+        bottom:0;
+    }
+    to{
+        transform: translateY(0rem);
+        visibility: visible;
+        bottom:0;
+    }
+}
