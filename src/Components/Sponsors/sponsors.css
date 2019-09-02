@@ -1,0 +1,70 @@
+.sponsor{
+    background-color:transparent;
+    margin: 0.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:28%;
+    height: 5rem;
+    /* height: 15rem; */
+    /* height:10rem; */
+    /* justify-content: space-around; */
+    /* align-items:center;
+    flex-direction: column; */
+    /* margin:1rem 2rem;
+    padding-top:1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem; */
+}
+.sponsorMargin{
+    width:100%;
+    padding-top:0.5rem;
+}
+.sponsor-image{
+    max-width:100%;
+    max-height:100%;
+}
+#sponsorHead{
+    width:50%;
+    height:5rem;
+}
+#sponsorHeadContain{
+    display: flex;
+    justify-content: center;
+}
+
+.background-white{
+    background-color: white;
+    width:95%;
+    margin:1rem auto;
+}
+
+@media screen and (min-width:600px){
+    .sponsor{
+        width:25%;
+        height:5rem;
+    }
+    .sponsor-image{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #sponsorHead{
+        width:40%;
+        height:5rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .sponsor{
+        width:25%;
+        height:5rem;
+    }
+    .sponsor-image{
+        max-width: 75%;
+        max-height: 75%;
+    }
+    #sponsorHead{
+        width:20%;
+        height:6rem;
+    }
+}

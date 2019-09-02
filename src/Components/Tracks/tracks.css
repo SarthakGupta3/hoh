@@ -1,12 +1,13 @@
 
-#trackContain{
-    background-color:rgba(95, 150, 95, 0.733);
+.trackContain{
+    background-color:rgba(68, 112, 68, 0.733);
+    padding-bottom:2rem;
 }
 .track-image{
     max-width:50%;
     max-height: 50%;
 }
-#margin{
+.margin{
     width:90%;
     padding:1rem;
     margin:0 auto;
@@ -17,18 +18,19 @@
 
 .track{
     width:25%;
-    height: 15rem;
+    /* height: 15rem; */
     /* height:10rem; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items:center;
-    background-color: whitesmoke;
+    flex-direction: column;
     margin:1rem 2rem;
+    padding-top:1rem;
     background-color: white;
     border-radius: 1rem;
 }
 
-#track-heading{
+.track-heading{
     display: flex;
     justify-content: center;
     color:white;
@@ -37,13 +39,18 @@
 
 
 @media screen and (max-width:800px){
-    #margin{
-        width:100%;
+    .margin{
+        width:90%;
         padding:0;
         padding:2.5rem 0;
     }
     .track{
-        width:30%;
-        height:8rem;
+        width:28%;
+        height:7rem;
+        /* background-color: red; */
     }
+}
+
+.track-title{
+    font-size: 1.1rem;
 }

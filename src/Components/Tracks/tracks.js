@@ -12,17 +12,24 @@ import iot from '../../images/iot-color.svg';
 
 class tracks extends React.Component{
     state={
-        items:[blockchain, ai, web, xr, iot, general]
+        items:[{item:blockchain, title:'BlockChain'},
+        {item:ai, title:'AI'},
+        {item:web, title:'Web'},
+        {item:xr, title:'AR/VR'},
+        {item:iot, title:'Iot'},
+        {item:general, title:'General'}]
     }
     render(){
         return(
-            <div id="trackContain">
+            <div className="trackContain">
                 
 <div id="tracks">
-<h1 id="track-heading">TRACKS</h1>
-                <div id="margin">
+<h1 className="track-heading">TRACKS</h1>
+                <div className="margin">
             {this.state.items.map(item => {
-                return <div className="track" id={Math.random()}><img className="track-image" src={item} alt=""></img></div>
+                return <div className="track" id={Math.random()}><img className="track-image" src={item.item} alt=""></img>
+                <div className="track-title">{item.title}</div>
+                </div>
             })}
                </div>
                 

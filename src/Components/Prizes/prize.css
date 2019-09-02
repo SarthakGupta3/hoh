@@ -1,0 +1,67 @@
+body{
+    scrollbar-width: none;
+}
+.PrizeContainer{
+    width:100%;
+}
+.prizetitle{
+    display: flex;
+    justify-content: center;
+}
+
+.prizes{
+    overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+.prize { -ms-overflow-style: none; }
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.item{
+    display: inline-block;
+    width:25%;
+    padding:1rem;
+    border:2px solid rgb(9, 51, 94);
+    border-radius: 1rem;
+    margin:1rem;
+}
+.prizeImage{
+    max-width:50%;
+}
+.prizeItem{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.prizeAmount{
+    display: flex;
+    justify-content: center;
+    padding:1rem;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    background-color: rgba(35, 91, 148, 0.856);
+    width:100%;
+    font-weight: 600;
+    margin-top:1rem;
+    color:white;
+}
+
+@media screen and (max-width:800px){
+    .prizeAmount{
+        font-size:1rem;
+    }
+    .prizeDesc{
+        display: flex;
+        justify-content: center;
+    }
+    .prizeAmt{
+        display: flex;
+        justify-content: center;
+    }
+}
