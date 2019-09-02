@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97ee890c5e469b026eb58da24b810b5d",
+    "revision": "79d40aecf6f7655f21835a5e9aa4e5bf",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "771827481700abef2196",
-    "url": "/hoh/static/css/main.82faea91.chunk.css"
+    "revision": "8c0039bc2625ef14bf99",
+    "url": "/hoh/static/css/main.a92f43e6.chunk.css"
   },
   {
-    "revision": "a20a1e203c3dedb174dd",
-    "url": "/hoh/static/js/2.2224b35d.chunk.js"
+    "revision": "860cc23b85eedaabf30a",
+    "url": "/hoh/static/js/2.404d6e4f.chunk.js"
   },
   {
-    "revision": "771827481700abef2196",
-    "url": "/hoh/static/js/main.1c32c678.chunk.js"
+    "revision": "8c0039bc2625ef14bf99",
+    "url": "/hoh/static/js/main.291ed48d.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ab2bdb739f7b0e909202c0289a27656",
     "url": "/hoh/static/media/iot-color.0ab2bdb7.svg"
+  },
+  {
+    "revision": "fe6739a7c1388d5e1cc509e4687523a1",
+    "url": "/hoh/static/media/maple-leaf.fe6739a7.svg"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
