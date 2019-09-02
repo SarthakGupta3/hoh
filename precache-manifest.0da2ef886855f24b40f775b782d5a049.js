@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33d1ce4ef2a34e328969f14b06615608",
+    "revision": "b36e8e4e25b21d9e73722ddcbb41472c",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "9fce35ffdc3a7b924e9f",
-    "url": "/hoh/static/css/main.a88cb446.chunk.css"
+    "revision": "eae8ddd64405f513f3d3",
+    "url": "/hoh/static/css/main.aa201729.chunk.css"
   },
   {
-    "revision": "c7b580017a7b5e178219",
-    "url": "/hoh/static/js/2.c9874d23.chunk.js"
+    "revision": "e3e26b9bcb6b23b89f99",
+    "url": "/hoh/static/js/2.89eb6d48.chunk.js"
   },
   {
-    "revision": "9fce35ffdc3a7b924e9f",
-    "url": "/hoh/static/js/main.961fa2f8.chunk.js"
+    "revision": "eae8ddd64405f513f3d3",
+    "url": "/hoh/static/js/main.0dbeee1d.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -64,12 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/maple-leaf.fe6739a7.svg"
   },
   {
+    "revision": "4d2e02f1b41fa2e36482ff77b3f938c0",
+    "url": "/hoh/static/media/mountain_day.4d2e02f1.svg"
+  },
+  {
     "revision": "10bc7c769d69752f2f072c2648766553",
     "url": "/hoh/static/media/simba.10bc7c76.png"
   },
   {
     "revision": "482d78f113ae79c75016566769a2c120",
     "url": "/hoh/static/media/sketch.482d78f1.png"
+  },
+  {
+    "revision": "fbbe405ec9ef5e96f231c3c6ae8a7b81",
+    "url": "/hoh/static/media/sunny.fbbe405e.svg"
   },
   {
     "revision": "cb9c807cbf8fc231bff8286c059ef87d",
