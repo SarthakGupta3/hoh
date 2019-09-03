@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9788641e3566453fcc502c0b8d36049",
+    "revision": "2659ed915becaf8165552e397d66a08b",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "f8ab506dd912042f28b6",
-    "url": "/hoh/static/css/main.b5057bba.chunk.css"
+    "revision": "b41c858f8825d639314f",
+    "url": "/hoh/static/css/main.fb5f809b.chunk.css"
   },
   {
-    "revision": "e3e26b9bcb6b23b89f99",
-    "url": "/hoh/static/js/2.89eb6d48.chunk.js"
+    "revision": "354fea0edf5eadc057bc",
+    "url": "/hoh/static/js/2.eff92f65.chunk.js"
   },
   {
-    "revision": "f8ab506dd912042f28b6",
-    "url": "/hoh/static/js/main.6fbe64a5.chunk.js"
+    "revision": "b41c858f8825d639314f",
+    "url": "/hoh/static/js/main.7731053f.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/ebiz.459546f9.png"
   },
   {
+    "revision": "940e7cd451545fb81fea6eb28249f82a",
+    "url": "/hoh/static/media/evening.940e7cd4.svg"
+  },
+  {
     "revision": "95be97e7dadc95f1ac8d9084aaae2372",
     "url": "/hoh/static/media/general-color.95be97e7.svg"
   },
@@ -64,8 +68,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/maple-leaf.fe6739a7.svg"
   },
   {
-    "revision": "4d2e02f1b41fa2e36482ff77b3f938c0",
-    "url": "/hoh/static/media/mountain_day.4d2e02f1.svg"
+    "revision": "b39f238a1d5dd092f3a3b752690eae2f",
+    "url": "/hoh/static/media/morning-background.b39f238a.svg"
+  },
+  {
+    "revision": "8cc7768fdaa4c11fe6e792d248cb2b84",
+    "url": "/hoh/static/media/mountain_day.8cc7768f.svg"
+  },
+  {
+    "revision": "b774ab4e76036a7fd28eba89c3f4e607",
+    "url": "/hoh/static/media/mountain_evening.b774ab4e.svg"
+  },
+  {
+    "revision": "73d13b0b7f3d3fe88d0278d5e87c2a61",
+    "url": "/hoh/static/media/night.73d13b0b.svg"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
