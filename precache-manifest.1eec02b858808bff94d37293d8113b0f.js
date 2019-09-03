@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24e0af570e70a7787d1ca6f93747c02e",
+    "revision": "866ecb61ee378efcc97982ab2876e6d2",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "fb09f85abdac01e67573",
-    "url": "/hoh/static/css/main.98da0a9f.chunk.css"
+    "revision": "4ff04b782f3f3a7e3c47",
+    "url": "/hoh/static/css/main.d799db75.chunk.css"
   },
   {
-    "revision": "354fea0edf5eadc057bc",
-    "url": "/hoh/static/js/2.eff92f65.chunk.js"
+    "revision": "42143ecb969468275dab",
+    "url": "/hoh/static/js/2.1a6c97b1.chunk.js"
   },
   {
-    "revision": "fb09f85abdac01e67573",
-    "url": "/hoh/static/js/main.caf5e762.chunk.js"
+    "revision": "4ff04b782f3f3a7e3c47",
+    "url": "/hoh/static/js/main.44cf3a2e.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b39f238a1d5dd092f3a3b752690eae2f",
     "url": "/hoh/static/media/morning-background.b39f238a.svg"
+  },
+  {
+    "revision": "f5074c75005dd07a26d84cf2407ba607",
+    "url": "/hoh/static/media/morning.f5074c75.svg"
   },
   {
     "revision": "8cc7768fdaa4c11fe6e792d248cb2b84",
