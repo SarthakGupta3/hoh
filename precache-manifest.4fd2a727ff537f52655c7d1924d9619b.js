@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b51c78b72d91b1ae3018794e3c36b805",
+    "revision": "a969882632352dc6e943784c7c09643d",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "a1b93884fd0acd1d8363",
-    "url": "/hoh/static/css/main.4380a202.chunk.css"
+    "revision": "db2f4792892ff6b8a70d",
+    "url": "/hoh/static/css/main.e04cd3f4.chunk.css"
   },
   {
-    "revision": "2b576b4ffae54e84a6a3",
-    "url": "/hoh/static/js/2.4b422a68.chunk.js"
+    "revision": "3011f0fd043ad424fd7b",
+    "url": "/hoh/static/js/2.63704465.chunk.js"
   },
   {
-    "revision": "a1b93884fd0acd1d8363",
-    "url": "/hoh/static/js/main.b35dc931.chunk.js"
+    "revision": "db2f4792892ff6b8a70d",
+    "url": "/hoh/static/js/main.79f0e329.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/blockchain-color.1c02f1bc.svg"
   },
   {
+    "revision": "f735760045a77a7be0f280269529f1b6",
+    "url": "/hoh/static/media/body-background.f7357600.svg"
+  },
+  {
     "revision": "459546f90b8a790cc4422c495a50695c",
     "url": "/hoh/static/media/ebiz.459546f9.png"
   },
@@ -68,24 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/maple-leaf.fe6739a7.svg"
   },
   {
-    "revision": "b39f238a1d5dd092f3a3b752690eae2f",
-    "url": "/hoh/static/media/morning-background.b39f238a.svg"
+    "revision": "24494263c09835e7dbca19442657d9d9",
+    "url": "/hoh/static/media/morning.24494263.svg"
   },
   {
-    "revision": "f5074c75005dd07a26d84cf2407ba607",
-    "url": "/hoh/static/media/morning.f5074c75.svg"
-  },
-  {
-    "revision": "8cc7768fdaa4c11fe6e792d248cb2b84",
-    "url": "/hoh/static/media/mountain_day.8cc7768f.svg"
+    "revision": "e51dce26b09e7125dcf56ddaf645a0e2",
+    "url": "/hoh/static/media/mountain_day.e51dce26.svg"
   },
   {
     "revision": "b774ab4e76036a7fd28eba89c3f4e607",
     "url": "/hoh/static/media/mountain_evening.b774ab4e.svg"
-  },
-  {
-    "revision": "73d13b0b7f3d3fe88d0278d5e87c2a61",
-    "url": "/hoh/static/media/night.73d13b0b.svg"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
