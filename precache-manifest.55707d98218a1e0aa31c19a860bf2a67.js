@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5aed0a2e62066ce422bf3d8eddfbca35",
+    "revision": "d47e7b75f0537600ec3312ba328ead0a",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "29a6ecece2fcef1e6b55",
-    "url": "/hoh/static/css/main.50a9035b.chunk.css"
+    "revision": "c9ba977c3fe19f5fc23f",
+    "url": "/hoh/static/css/main.279e7ac0.chunk.css"
   },
   {
-    "revision": "3011f0fd043ad424fd7b",
-    "url": "/hoh/static/js/2.63704465.chunk.js"
+    "revision": "bad59e5051fa00620abc",
+    "url": "/hoh/static/js/2.5845dca9.chunk.js"
   },
   {
-    "revision": "29a6ecece2fcef1e6b55",
-    "url": "/hoh/static/js/main.38072909.chunk.js"
+    "revision": "c9ba977c3fe19f5fc23f",
+    "url": "/hoh/static/js/main.4daccbbb.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "965911cea2c41f6e5dedfde0a6c56f23",
     "url": "/hoh/static/media/ai-color.965911ce.svg"
-  },
-  {
-    "revision": "1bcbe03b13abd0f63c581f7cd5e7419f",
-    "url": "/hoh/static/media/big_mountain.1bcbe03b.svg"
   },
   {
     "revision": "1c02f1bc6498cd2626a42efb82d4cd95",
@@ -68,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/iot-color.0ab2bdb7.svg"
   },
   {
-    "revision": "fe6739a7c1388d5e1cc509e4687523a1",
-    "url": "/hoh/static/media/maple-leaf.fe6739a7.svg"
+    "revision": "10dbddfb16cd69581e0f01a33e2fc787",
+    "url": "/hoh/static/media/menu.10dbddfb.svg"
   },
   {
     "revision": "24494263c09835e7dbca19442657d9d9",
@@ -82,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b774ab4e76036a7fd28eba89c3f4e607",
     "url": "/hoh/static/media/mountain_evening.b774ab4e.svg"
+  },
+  {
+    "revision": "1bcbe03b13abd0f63c581f7cd5e7419f",
+    "url": "/hoh/static/media/mountain_night.1bcbe03b.svg"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
