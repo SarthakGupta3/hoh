@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import './tracks.css';
+import '../Tracks/tracks.css';
 import './sponsors.css';
 
 import Github from '../../images/github_logo.png';
@@ -9,6 +9,7 @@ import Simba from '../../images/simba.png';
 import ebizOn from '../../images/ebiz.png';
 import sketch from '../../images/sketch.png';
 import gitlab from '../../images/gitlab.png';
+import anime from 'animejs';
 
 
 
@@ -16,12 +17,34 @@ class sponsors extends React.Component{
     state={
         items:[CodingBlocks,Simba, ebizOn, sketch, gitlab]
     }
+    componentWillMount(){
+        let hour = new Date().getHours();
+        if(hour >= 20 || hour <=6){
+            this.setState({
+                background:'trackContain sponsor-color-night', 
+                heading:'track-heading sponsor-heading sponsor-heading-night'
+            })
+        }
+        if(hour >6 && hour <=14){
+            this.setState({
+                background:'trackContain sponsor-color-morning',
+                heading:'track-heading sponsor-heading sponsor-heading-morning'
+            })
+        }
+        if(hour >14 && hour <20){
+            this.setState({
+                background:'trackContain sponsor-color-evening', 
+                heading:'track-heading sponsor-heading sponsor-heading-evening'
+            })
+        }
+    }
+   
     render(){
         return(
-            <div className="trackContain">
+            <div className={this.state.background} id="sponsors">
                 
-            <div className="tracks">
-            <h1 className="track-heading">SPONSORS</h1>
+            <div className="tracks hidden">
+            <h1 className={this.state.heading}>SPONSORS</h1>
                 <div className="background-white">
                 <h2 id="sponsorHeadContain"><img id="sponsorHead" src={Github} alt=""></img></h2>
                 <div className="margin sponsorMargin">

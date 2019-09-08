@@ -2,14 +2,36 @@ import React from 'react';
 
 import logo from '../../images/hoh.png';
 
+import Swiper from 'swiper';
+import anime from 'animejs';
 import './timeline.css';
 class prizes extends React.Component{
+    componentDidMount(){
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows : true,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          });
+         
+    }
+        
     render(){
         return(
-            <div className="Timeline-Contain">
+            <div className="Timeline-Contain swiper-container hidden" id="schedule">
             <h1 className="timeline-head">SCHEDULE</h1>
-            <div className="Timeline">
-                <div className="Day-card">
+            <div className="Timeline swiper-wrapper">
+                <div className="Day-card swiper-slide">
                 <h2 className="Daytag">8th March 2019</h2>
                 <p className="Daytag subhead">Opening Ceremony and Pre Hackathon meet </p>
                  <div className="Day-contain">
@@ -23,7 +45,7 @@ class prizes extends React.Component{
                     </ul>
                  </div>
                 </div>
-                <div className="Day-card">
+                <div className="Day-card swiper-slide">
                 <h2 className="Daytag">8th March 2019</h2>
                 <p className="Daytag subhead">Opening Ceremony and Pre Hackathon meet </p>
                 <div className="Day-contain">
@@ -37,7 +59,7 @@ class prizes extends React.Component{
                     </ul>
                  </div>
                 </div>
-                <div className="Day-card">
+                <div className="Day-card swiper-slide">
                 <h2 className="Daytag">8th March 2019</h2>
                 <p className="Daytag subhead">Opening Ceremony and Pre Hackathon meet </p>
                 <div className="Day-contain">
@@ -53,7 +75,19 @@ class prizes extends React.Component{
                 </div>
                 
             </div>
+            <div class="swiper-pagination"></div>
             </div>
+//             <div class="swiper-container">
+//     <div class="swiper-wrapper">
+//       <div class="swiper-slide"></div>
+//       <div class="swiper-slide"></div>
+//       <div class="swiper-slide"></div>
+//       <div class="swiper-slide"></div>
+//       <div class="swiper-slide"></div>
+//       <div class="swiper-slide"></div>
+//     </div>
+//     <div class="swiper-pagination"></div>
+//   </div>
         )
     }
 }

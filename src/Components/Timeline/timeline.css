@@ -1,21 +1,26 @@
 .Timeline{
     width: 100%;
-    overflow-x: scroll;
+    /* overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   overflow: -moz-scrollbars-none;
   scrollbar-width: none;
-  /* padding:1rem 1rem; */
-  margin: 1rem auto;
+  margin: 1rem auto; */
 }
 .Timeline-Contain{
     padding:1rem;
 }
+.swiper-pagination{
+    margin:-0.5rem auto;
+}
+.swiper-pagination-bullet{
+    background-color:rgba(68, 112, 68, 0.733);
+}
 .Day-card{
    width:80%;
-   display: inline-block;
-   /* border:1px solid lightgray; */
+   /* display: inline-block; */
+   border:1px solid lightgray;
    margin:0.75rem;
    padding:0.75rem;
    box-shadow: 0.1rem 0.1rem 0.75rem lightgray;

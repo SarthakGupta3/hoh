@@ -1,7 +1,29 @@
-
-.trackContain{
-    background-color:rgba(68, 112, 68, 0.733);
+.trackContain, .contain{
+    /* background-color:rgba(68, 112, 68, 0.733); */
+    /* background-color: #191919; */
     padding-bottom:2rem;
+    position: relative;
+    overflow: hidden;
+    border-radius:0.5rem;
+}
+
+.fadeIn{
+    animation-duration: 4s;
+}
+.color-night{
+   background-color: #191919;
+    /* background-image: url('../../images/background.svg'); */
+}
+.color-evening{
+    /* background-image: url(../../images/track_background.svg); */
+    background-color:rgba(136, 17, 57,0.4);
+}
+.color-morning{
+    /* background-image: url(../../images/track_background.svg); */
+    /* background-image:url('../../images/morning-background.svg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
 }
 .track-image{
     max-width:50%;
@@ -26,14 +48,32 @@
     flex-direction: column;
     margin:1rem 2rem;
     padding-top:1rem;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 1rem;
+    /* visibility: hidden; */
+    
 }
 
+.come-in{
+    animation-name:come-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes come-in{
+    from{
+        visibility: visible;
+        transform: translate(0rem, -5rem);
+    }
+    to{
+        visibility: visible;
+        transform: translate(0rem, 0rem);
+    }
+}
 .track-heading{
     display: flex;
     justify-content: center;
-    color:white;
     padding-top:2rem;
 }
 
@@ -45,12 +85,20 @@
         padding:2.5rem 0;
     }
     .track{
-        width:28%;
-        height:7rem;
+        width:50%;
+        height:10rem;
+        border-radius:10rem;
         /* background-color: red; */
     }
 }
 
 .track-title{
     font-size: 1.1rem;
+}
+
+.heading-morning{
+    color:black;
+}
+.heading-evening, .heading-night{
+    color:white !important;
 }

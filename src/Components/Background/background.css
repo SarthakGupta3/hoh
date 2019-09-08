@@ -1,7 +1,33 @@
 body{
     font-family: 'Manjari', sans-serif;
 }
+.night{
+    background: #0c0c0c;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.evening{
+    background-image: url('../../images/evening.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.day{
+    background-image: url('../../images/morning.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sun{
+    width:18%;
+    height:18%;
+    position: absolute;
+    top:8%;
+    right:12%;
+    z-index: 3;
+    background-image: url('../../images/sunny.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 #stars{
     width:100%;
     height:50%;
@@ -12,30 +38,41 @@ body{
 }
 
 #github{
+    width:100%;
+    height:50%;
     display: flex;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    z-index: 4;
+    padding-top:8.5rem;
     flex-direction: column;
     align-items: center;
-    width:100%;
-    max-height: 100%;
-    justify-content: center;
-    padding-top:8rem;
-    animation: text-in;
-    animation-duration: 1s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-    visibility: hidden;
-    position: relative;
-    z-index:3;
+    overflow-y: hidden;
 }
-
-#github-text{
-    padding:0;
-    font-size:3rem;
+.github-text{
+    font-size:1.8rem;
+    color: white;
+}
+.Apply{
+    width:100%;
     color:white;
     position: absolute;
-    z-index:3;
-    margin: 0;
-    top:100%;
+    padding-top:25rem;
+    display: flex;
+    z-index: 4;
+    justify-content: center;
+    align-items:center;
+}
+.textadjust{
+    color:white;
+    margin:0.25rem;
+    font-size:1.2rem;
+}
+#register{
+    border:1px solid white;
+    padding:1rem;
+    color:white;
 }
 @keyframes text-in{
     0%{
@@ -90,7 +127,6 @@ body{
 }
 
 .SceneHolder{
-    background-color:rgb(9, 51, 94);
     width:100%;
     height:100vh;
     position: relative;

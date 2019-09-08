@@ -2,8 +2,25 @@ body,html{
   width:100%;
   height: 100%;
 }
+.body-evening, .body-night{
+  background-color:white;
+}
+.body-morningM{
+  background-image: url('./images/body-background.png');
+  background-repeat: repeat-y;
+  background-attachment: scroll;
+}
+.body-morning{
+  background-image: url('./images/body-background.png');
+  background-repeat: repeat-y;
+  background-size:100% auto;
+  background-attachment: scroll;
+}
 body {
+  position: relative;
+  overflow-x:hidden;
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -14,4 +31,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+/* .hidden{
+  visibility: hidden;
+} */
+/* .come-in-side{
+  animation-name:come-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes come-in{
+  from{
+    transform: translateY(-3rem);
+    visibility: visible;
+  }
+  to{
+    transform: translateY(0rem);
+    visibility: visible;
+  }
+} */
+
+.App{
+  /* background-image: url('./images/background.jpg');
+  background-repeat: space; */
 }

@@ -1,6 +1,6 @@
 .sponsor{
     background-color:transparent;
-    margin: 0.5rem 2rem;
+    margin: 0.2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -35,7 +35,9 @@
 
 .background-white{
     background-color: white;
-    width:95%;
+    opacity:0.9;
+    border-radius:1rem;
+    width:90%;
     margin:1rem auto;
 }
 
@@ -67,4 +69,26 @@
         width:20%;
         height:6rem;
     }
+}
+
+
+
+.sponsor-color-night{
+    background-color:#191919;;
+}
+
+
+.sponsor-color-evening{
+    background-color:rgba(136, 17, 57,0.4);
+}
+.sponsor-color-morning{
+    background-color: transparent;
+    opacity:0.85;
+}
+
+.sponsor-heading-night, .sponsor-heading-evening{
+    color: white;
+}
+.sponsor-heading-morning{
+    color: black;
 }

@@ -1,63 +1,20 @@
-#about{
+/* .about-background{
+    background-image: url('../../images/about_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.word{
+    margin:0.2rem;
+}
+.about{
     display: flex;
-}
-.leaf1{
-    width:6rem;
-    position: absolute;
-    z-index:-1;
-    opacity: 0.3;
-    top:50%;
-    right:6%;
-    transform: rotate(35deg);
-}
-.leaf2{
-    width:4rem;
-    position: absolute;
-    z-index:-1;
-    opacity: 0.3;
-    top:-3%;
-    right:10%;
-    transform: rotate(-45deg);
-}
-.leaf3{
-    width:5rem;
-    position: absolute;
-    z-index:-1;
-    opacity: 0.3;
-    top:80%;
-    right:60%;
-    transform: rotate(25deg);
-}
-.leaf4{
-    width:5rem;
-    position: absolute;
-    z-index:-1;
-    opacity: 0.3;
-    top:44%;
-    right:75%;
-    transform: rotate(-45deg);
+    flex-direction: column;
+    font-size:1em;
 }
 .about-contain{
     position: relative;
-    /* z-index: -1; */
+    overflow:hidden;
 }
-/* .about-sub{
-    z-index: 1;
-} */
-.Image{
-    width:25rem;
-    height:25rem;
-    border-radius: 10rem;
-    margin-right:5rem;
-}
-.ImageW{
-    width:60%;
-    height: 10rem;
-    border-radius: 10rem;
-    margin-right:5rem;
-    margin: auto 2rem;
-}
-
 #heading{
     display: flex;
     justify-content: center;
@@ -66,38 +23,13 @@
 }
 
 .about-text{
-   font-size:1.2rem;
-   text-align: justify;
-    margin: 1.5rem auto;
-    padding-right:5rem;
-}
-
-@media screen and (max-width:1200px){
-    #about{
-        flex-direction: column;
-        font-size:1em;
-    }
-    .about-text{
-        padding:0;
-        font-family: 'Manjari', serif;
-        font-size: 1.1rem;
-        width:82%;
-        line-height: 1.4em;
-        /* word-spacing: 0.5rem; */
-        text-align:justify;
-        margin:1.2rem auto;
-     }
-     .Image{
-         margin:auto;
-         width:20rem;
-         height: 20rem;
-     }
-     .ImageW{
-        width:40%;
-        height: 15rem;
-        border-radius: 10rem;
-        margin-right:5rem;
-        margin: auto;
-    }
-   
+    padding:0;
+    font-family: 'Manjari', serif;
+    font-size: 1.1rem;
+    width:82%;
+    font-weight: 600;
+    color:rgb(9, 51, 94);
+    line-height: 1.4em;
+    text-align:justify;
+    margin:1.2rem auto;
 }

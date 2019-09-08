@@ -1,6 +1,4 @@
-body{
-    scrollbar-width: none;
-}
+
 .PrizeContainer{
     width:100%;
 }
@@ -24,15 +22,17 @@ body{
 }
 
 .item{
+    height: 10rem;
     display: inline-block;
-    width:25%;
+    width:60%;
     padding:1rem;
-    border:2px solid rgb(9, 51, 94);
+    /* border:2px solid rgb(9, 51, 94); */
     border-radius: 1rem;
     margin:1rem;
 }
 .prizeImage{
-    max-width:50%;
+    max-width: 100%;
+    height: 10rem;
 }
 .prizeItem{
     display: flex;
