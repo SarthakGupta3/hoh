@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30d584d87b60b7877146db430c17a36b",
+    "revision": "657a097ce246791f20eddb92968de779",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "6ded76f7de121bcd32bb",
-    "url": "/hoh/static/css/main.510f943a.chunk.css"
+    "revision": "c73880c5d6af187402f9",
+    "url": "/hoh/static/css/main.8d3775b0.chunk.css"
   },
   {
     "revision": "88575d87dcbb12b9b61f",
     "url": "/hoh/static/js/2.6439748e.chunk.js"
   },
   {
-    "revision": "6ded76f7de121bcd32bb",
-    "url": "/hoh/static/js/main.8b036f4b.chunk.js"
+    "revision": "c73880c5d6af187402f9",
+    "url": "/hoh/static/js/main.46cd73a4.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/blockchain-color.1c02f1bc.svg"
   },
   {
-    "revision": "788375d4d40c9ad8e5710c3ac7de14e6",
-    "url": "/hoh/static/media/body-background.788375d4.svg"
+    "revision": "f2b8f00d9be4413c00fc71a7a833f01b",
+    "url": "/hoh/static/media/body-background.f2b8f00d.png"
   },
   {
     "revision": "459546f90b8a790cc4422c495a50695c",
