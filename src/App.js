@@ -6,7 +6,8 @@ import Tracks from './Components/Tracks/tracks';
 import About from './Components/About/about';
 import Timeline from './Components/Timeline/timeline';
 import Sponsors from './Components/Sponsors/sponsors';
-
+import FAQ from './Components/FAQ/faq';
+import Footer from './Components/Footer/footer';
 
 class App extends React.Component{
   componentDidMount(){
@@ -42,10 +43,12 @@ class App extends React.Component{
     return (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) ? (
       <div className="App">
         <SceneMobile/>
-        <About />
-        <Tracks/>
-        <Timeline/>
-        <Sponsors/>
+          <About />
+          <Tracks/>
+          <Timeline/>
+          <Sponsors/>
+          <FAQ/>   
+          <Footer />   
       </div>
     ) : (<div className="App">
        <Scene/>
@@ -53,6 +56,8 @@ class App extends React.Component{
        <Tracks/>
        <Timeline/>
        <Sponsors />
+       <FAQ/>
+       <Footer />
     </div>);
   }
   

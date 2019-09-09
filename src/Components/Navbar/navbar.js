@@ -23,6 +23,7 @@ class Navbar extends React.Component{
                     <a href="#tracks" className="Link click">Tracks</a>
                     <a href="#schedule" className="Link click">Schedule</a>
                     <a href="#sponsors" className="Link click">Sponsors</a>
+                    <a href="#faq" className="Link click">Queries</a>
                 </div>
             </div>
            

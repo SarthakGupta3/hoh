@@ -17,7 +17,7 @@ class About extends React.Component{
         }
         if(hour > 7 || hour <=14){
             this.setState({
-                background:'about-contain about-background'
+                background:'about-contain about-background' 
             })
         }
         if(hour >14 || hour <=20){
@@ -26,19 +26,7 @@ class About extends React.Component{
             })
         }
     }
-//     componentDidMount(){  
-//     var textWrapper = document.querySelector('#heading');
-//     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='heading'>$&</span>");
-//     anime.timeline({loop: false})
-//   .add({
-//     targets: '#heading .heading',
-//     scale: [0, 1],
-//     duration: 2000,
-//     elasticity: 600,
-//     delay: (el, i) => 45 * (i+1),
-//     direction:'normal'
-//         })
-//     }
+
     render(){
         return(
             <div className={this.state.background} id="about">
