@@ -16,10 +16,10 @@
   scrollbar-width: none;
 }
 .prize { -ms-overflow-style: none; }
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
+/* ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+} */
 
 .item{
     height: 10rem;

@@ -1,0 +1,20 @@
+.info{
+    width:100%;
+}
+.info-item{
+    display: flex;
+    width:100%;
+    margin:1rem 0;
+}
+
+.text{
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-adjust{
+    width:40%;
+    padding:0 2rem;
+}

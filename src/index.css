@@ -11,10 +11,10 @@ body,html{
   background-attachment: scroll;
 }
 .body-morning{
-  background-image: url('./images/body-background.png');
+  /* background-image: url('./images/body-background.png');
   background-repeat: repeat-y;
   background-size:100% auto;
-  background-attachment: scroll;
+  background-attachment: scroll; */
 }
 body {
   position: relative;

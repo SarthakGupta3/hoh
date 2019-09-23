@@ -47,4 +47,18 @@ height: 2rem;
 }
 .display{
     display: flex;
+    visibility: hidden;
+    animation-name: slide;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+}
+@keyframes slide{
+    from{
+        visibility: visible;
+        opacity:0;
+    }
+    to{
+        visibility: visible;
+        opacity:1; 
+    }
 }

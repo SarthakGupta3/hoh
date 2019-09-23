@@ -1,12 +1,12 @@
 import React from 'react';
 
 import './tracks.css';
-import general from '../../images/general-color.svg';
-import ai from '../../images/ai-color.svg';
-import blockchain from '../../images/blockchain-color.svg';
-import web from '../../images/webapp-color.svg';
-import xr from '../../images/vr-color.svg';
-import iot from '../../images/iot-color.svg';
+import general from '../../images/general.png';
+import ai from '../../images/ai.png';
+import blockchain from '../../images/blockchain.png';
+import web from '../../images/web.png';
+import xr from '../../images/vr.png';
+import iot from '../../images/IOT.png';
 
 
 class tracks extends React.Component{
@@ -15,7 +15,7 @@ class tracks extends React.Component{
         {item:ai, title:'AI'},
         {item:web, title:'Web'},
         {item:xr, title:'AR/VR'},
-        {item:iot, title:'Iot'},
+        {item:iot, title:'IOT'},
         {item:general, title:'General'}]
     }
     componentWillMount(){
@@ -49,12 +49,12 @@ class tracks extends React.Component{
     }
     render(){
         return(
-            <div className={this.state.background} id="tracks">
+            <div className={this.state.background} id="tracks" data-aos="zoom-in" data-aos-duration="600">
                     <div className="tracks">
             <h1 className={this.state.heading}>TRACKS</h1>
                 <div className="margin hidden">
             {this.state.items.map(item => {
-                return <div className="track" id={Math.random()}><img className="track-image" src={item.item} alt=""></img>
+                return <div className="track track-transition hideme" id={Math.random()}><img className="track-image" src={item.item} alt=""></img>
                 <div className="track-title">{item.title}</div>
                 </div>
             })}

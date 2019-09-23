@@ -9,7 +9,8 @@ import Simba from '../../images/simba.png';
 import ebizOn from '../../images/ebiz.png';
 import sketch from '../../images/sketch.png';
 import gitlab from '../../images/gitlab.png';
-import anime from 'animejs';
+// import anime from 'animejs';
+// import AOS from 'aos';
 
 
 
@@ -38,10 +39,10 @@ class sponsors extends React.Component{
             })
         }
     }
-   
+
     render(){
         return(
-            <div className={this.state.background} id="sponsors">
+            <div className={this.state.background} id="sponsors" data-aos="zoom-in" data-aos-duration="600">
                 
             <div className="tracks hidden">
             <h1 className={this.state.heading}>SPONSORS</h1>

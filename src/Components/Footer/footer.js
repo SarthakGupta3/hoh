@@ -8,25 +8,25 @@ class Footer extends React.Component{
     }
     componentWillMount(){
         let hour = new Date().getHours();
-        if(hour >= 20 || hour <=7){
-            this.setState({
-                icon:'icon icon-night'
-            })
-        }
-        if(hour > 7 && hour <=14){
+        if(hour > 6 && hour <=14){
             this.setState({
                 icon:'icon icon-morning'
             })
         }
-        if(hour >14 && hour <=20){
+        if(hour >14 && hour <20){
             this.setState({
                 icon:'icon icon-evening'
+            })
+        }
+        if(hour >=20 || hour <=6){
+            this.setState({
+                icon:'icon icon-night'
             })
         }
     }
     render(){
         return(
-            <div className="footer">
+            <div className="footer" data-aos="zoom-in" data-aos-duration="600">
                 <div className="links-ico">
                     <div className="nav-icons">
                         <a href="instagram" className={this.state.icon}><i className="fab fa-instagram fa-lg"></i></a>

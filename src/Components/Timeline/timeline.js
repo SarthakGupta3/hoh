@@ -28,7 +28,7 @@ class prizes extends React.Component{
         
     render(){
         return(
-            <div className="Timeline-Contain swiper-container hidden" id="schedule">
+            <div className="Timeline-Contain swiper-container hidden" id="schedule" data-aos="zoom-in" data-aos-duration="600">
             <h1 className="timeline-head">SCHEDULE</h1>
             <div className="Timeline swiper-wrapper">
                 <div className="Day-card swiper-slide">

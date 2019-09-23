@@ -32,6 +32,10 @@
     background-image: url('../../images/Stars.svg');
     background-size: contain;
     background-repeat: no-repeat;
+    animation-name:stars;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 #sunM{
     width:18%;
@@ -298,3 +302,20 @@
         transform: translateY(0.10rem);
     }
  }
+ @keyframes stars{
+    0%{
+        opacity:0.15;
+    }
+    25%{
+        opacity:0.5;
+    }
+    50%{
+        opacity:1;
+    }
+    75%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 0.15;
+    }
+  }

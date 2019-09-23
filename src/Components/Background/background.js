@@ -18,7 +18,7 @@ class Scene extends React.Component{
             this.setState({
                 mountain:mountainNight,
                 stars:true,
-                background:'night SceneHolderM',
+                background:'night SceneHolder',
                 sun:false
             })
         }
@@ -26,7 +26,7 @@ class Scene extends React.Component{
             this.setState({
                 mountain:mountainDay,
                 stars:false,
-                background:'day SceneHolderM',
+                background:'day SceneHolder',
                 sun:true
             })
         }
@@ -34,7 +34,7 @@ class Scene extends React.Component{
             this.setState({
                 mountain:mountainEvening,
                 stars:true,
-                background:'evening SceneHolderM',
+                background:'evening SceneHolder',
                 sun:false
             })
     }
@@ -49,11 +49,11 @@ class Scene extends React.Component{
                 <img id="mediumTree1" src={Tree} alt=""></img>
                 <img id="tallTree2" src={Tree} alt=""></img>
                 <img id="mediumTree2" src={Tree} alt=""></img>
-                <img id="mediumTree3" src={Tree} alt=""></img>
+                <img id="mediumTree3" src={Tree} alt=""></img>  
                 {(this.state.stars) ? <div id="stars"></div> : null}
                 {(this.state.sun) ? <div id="sun"></div> : null}
                 <div id="github">
-                    <h3 className="text-adjust github-text animated infinite swing slow">HACK ON HILLS</h3>
+                    <h3 className="text-adjust github-text animated one swing slow">HACK ON HILLS</h3>
                     <h5 className="textadjust animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
                     <h6 className="textadjust animated one fadeIn slow delay-1s">8 - 10 March 2019</h6> 
                 </div>

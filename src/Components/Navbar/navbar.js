@@ -2,6 +2,7 @@ import React from 'react';
 
 import './navbar.css';
 import menu from '../../images/menu.svg';
+
 class Navbar extends React.Component{
     componentDidMount(){
         let buttons = document.querySelectorAll('.click');
@@ -18,12 +19,12 @@ class Navbar extends React.Component{
             <div>
                 <div className="navbar-ico click"><img src={menu} alt="menu" className="menu-ico"></img></div>
                 <div className="menu">
-                    <a href="#home" className="Link click"> Home</a>
-                    <a href="#about" className="Link click">About</a>
-                    <a href="#tracks" className="Link click">Tracks</a>
-                    <a href="#schedule" className="Link click">Schedule</a>
-                    <a href="#sponsors" className="Link click">Sponsors</a>
-                    <a href="#faq" className="Link click">Queries</a>
+                    <a href="#home" className="Link click animated one tada"> Home</a>
+                    <a href="#about" className="Link click animated one tada">About</a>
+                    <a href="#tracks" className="Link click animated one tada">Tracks</a>
+                    <a href="#schedule" className="Link click animated one tada">Schedule</a>
+                    <a href="#sponsors" className="Link click animated one tada">Sponsors</a>
+                    <a href="#faq" className="Link click animated one tada">Queries</a>
                 </div>
             </div>
            

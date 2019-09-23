@@ -14,9 +14,9 @@ class FAQ extends React.Component{
     }
     render(){
         return(
-            <div className="faq" id="faq">
-                <h1 className="faq-heading">FAQ</h1>
-               <div className="collapsible">
+            <div className="faq" id="faq" data-aos="zoom-in" data-aos-duration="600">
+                <h1 className="faq-heading">FAQs</h1>
+               <div className="collapsible" data-aos="fade-in">
                    <p className="question">
                    Is this hackathon an online event or offline? 
                    </p>
@@ -24,7 +24,7 @@ class FAQ extends React.Component{
                    Hack on hills is offline event and as a participant you need to be present at NIT Hamirpur campus one or two day before the event at least. 
                    </p>
                </div>
-               <div className="collapsible">
+               <div className="collapsible" data-aos="fade-in">
                    <p className="question">
                    Do this hackathon has any participation fees for students? 
                    </p>
@@ -32,7 +32,7 @@ class FAQ extends React.Component{
                    No. The hackathon is free of cost for any student from any college all over India. 
                    </p>
                </div> 
-               <div className="collapsible">
+               <div className="collapsible" data-aos="fade-in">
                    <p className="question">
                    What are all the restrictions on Team formations for the event? 
                    </p>
@@ -40,7 +40,7 @@ class FAQ extends React.Component{
                    A team can have at most 4 members and minimum of 2 members. 
                    </p>
                </div> 
-               <div className="collapsible">
+               <div className="collapsible" data-aos="fade-in">
                    <p className="question">
                    What should I do if I do not have any team yet? 
                    </p>
@@ -48,7 +48,7 @@ class FAQ extends React.Component{
                    Just fill out the application form and according to skills you have filled out, we will match you with the best team possible during Pre-Hackathon meeting. 
                    </p>
                </div> 
-               <div className="collapsible">
+               <div className="collapsible" data-aos="fade-in">
                    <p className="question">
                    What are the Perks and Benefits of Participating in this Hackathon? 
                    </p>
@@ -56,7 +56,7 @@ class FAQ extends React.Component{
                    Hackathon Provide hands on experience with the experts from different field working on the Projects like Blockchain, AI, Machine Learning, etc. This will help to give a head start if any one want to make project on the field. Along with that the participant will be provided with cool swags, stickers and refreshments to keep them up. 
                    </p>
                </div> 
-               <div className="collapsible">
+               <div className="collapsible" data-aos="fade-in">
                    <p className="question">
                    How to reach NIT Hamirpur for the event? 
                    </p>

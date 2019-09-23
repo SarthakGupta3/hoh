@@ -48,6 +48,7 @@ class SceneMobile extends React.Component{
                 <Navbar/>
                 <img className="bigMountainM" src={this.state.mountain} alt=""></img>
                 <img className="mediumMountainM" src={this.state.mountain} alt=""></img>
+                {/* <img className="mediumMountainM" src={this.state.mountain} alt=""></img> */}
                 <img className="tallTree tree1" src={Tree} alt=""></img>
                 <img className="tallTree tree2" src={Tree} alt=""></img>
                 <img className="tallTree tree3" src={Tree} alt=""></img>
@@ -70,7 +71,7 @@ class SceneMobile extends React.Component{
                 {(this.state.sun) ? <div id="sunM"></div> : null}
                 
                 <div id="githubM">
-                    <h3 className="text-adjustM github-textM animated infinite swing slow">HACK ON HILLS</h3>
+                    <h3 className="text-adjustM github-textM animated one swing slow">HACK ON HILLS</h3>
                     <h5 className="textadjustM animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
                     <h6 className="textadjustM animated one fadeIn slow delay-1s">8 - 10 March 2019</h6> 
                 </div>

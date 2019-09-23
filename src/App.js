@@ -8,21 +8,35 @@ import Timeline from './Components/Timeline/timeline';
 import Sponsors from './Components/Sponsors/sponsors';
 import FAQ from './Components/FAQ/faq';
 import Footer from './Components/Footer/footer';
+import Info from './Components/Info/info';
+import AOS from 'aos';
 
 class App extends React.Component{
+
+
   componentDidMount(){
+    AOS.init({
+      duration:2000
+    });
     let tracks = document.querySelector('.trackContain');
-    let about = document.querySelector('.about');
-    about.style.visibility = "hidden";  
+    let track_transit = document.querySelectorAll('.track-transition');
+    // let about = document.querySelector('.about');
+    // about.style.visibility = "hidden";  
     window.addEventListener('scroll', function(){
-      let positionTopAbout = about.getBoundingClientRect().top;
-      if(positionTopAbout - window.innerHeight <=-50){
-        about.style.visibility="visible";
-          about.classList.add('animated');
-          about.classList.add('one');
-          about.classList.add('flipInY');
-          about.classList.add('fast');
-    }
+      for(let i=0; i<track_transit.length;i++){
+        let positionTopTrack = track_transit[i].getBoundingClientRect().top;
+        if(positionTopTrack - window.innerHeight <=-30){
+            track_transit[i].classList.add('slide-down');
+        }
+      }
+    //   let positionTopAbout = about.getBoundingClientRect().top;
+    //   if(positionTopAbout - window.innerHeight <=-50){
+    //     about.style.visibility="visible";
+    //       about.classList.add('animated');
+    //       about.classList.add('one');
+    //       about.classList.add('flipInY');
+    //       about.classList.add('fast');
+    // }
     tracks.style.visibility="hidden";
     let positionTopTracks = tracks.getBoundingClientRect().top;
     if(positionTopTracks - window.innerHeight <=-40){
@@ -43,7 +57,7 @@ class App extends React.Component{
     return (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) ? (
       <div className="App">
         <SceneMobile/>
-          <About />
+          {/* <About /> */}
           <Tracks/>
           <Timeline/>
           <Sponsors/>
@@ -52,7 +66,8 @@ class App extends React.Component{
       </div>
     ) : (<div className="App">
        <Scene/>
-       <About />
+       <Info/>
+       {/* <About /> */}
        <Tracks/>
        <Timeline/>
        <Sponsors />
