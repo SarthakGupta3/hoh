@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a12e65f1fe54fd282030a8dd3ab23002",
+    "revision": "0ad88db4046d72419171225d8231da5a",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "a2b66342d0590d9819bc",
-    "url": "/hoh/static/css/main.2d7ee932.chunk.css"
+    "revision": "0b5e8b02d7cd2ac86a05",
+    "url": "/hoh/static/css/main.d51bbabf.chunk.css"
   },
   {
     "revision": "ad59584d59a3f73f6939",
     "url": "/hoh/static/js/2.f581bcc0.chunk.js"
   },
   {
-    "revision": "a2b66342d0590d9819bc",
+    "revision": "0b5e8b02d7cd2ac86a05",
     "url": "/hoh/static/js/main.ed46cdea.chunk.js"
   },
   {
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e2d58d2f6b26fa977d3946f08040b9e",
     "url": "/hoh/static/media/blockchain.2e2d58d2.png"
-  },
-  {
-    "revision": "f2b8f00d9be4413c00fc71a7a833f01b",
-    "url": "/hoh/static/media/body-background.f2b8f00d.png"
   },
   {
     "revision": "459546f90b8a790cc4422c495a50695c",
@@ -70,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24494263c09835e7dbca19442657d9d9",
     "url": "/hoh/static/media/morning.24494263.svg"
+  },
+  {
+    "revision": "30e672c6c04df0edb2b4fa3a9d38fa1a",
+    "url": "/hoh/static/media/morning.30e672c6.jpg"
+  },
+  {
+    "revision": "55cfed77ea08aaad7263e9310359680b",
+    "url": "/hoh/static/media/morning_background.55cfed77.png"
   },
   {
     "revision": "e51dce26b09e7125dcf56ddaf645a0e2",
