@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d01ac07fbded2775d0192339699b80a",
+    "revision": "e4c48a7727812d3861df3259f569e0fc",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "01b8159ba199512b1efe",
-    "url": "/hoh/static/css/main.901ab945.chunk.css"
+    "revision": "14427c65279d9905df8e",
+    "url": "/hoh/static/css/main.ad39893e.chunk.css"
   },
   {
-    "revision": "5292f2bab11224e68e43",
-    "url": "/hoh/static/js/2.02852c8e.chunk.js"
+    "revision": "499e3f5a8e175335be36",
+    "url": "/hoh/static/js/2.23fdc887.chunk.js"
   },
   {
-    "revision": "01b8159ba199512b1efe",
-    "url": "/hoh/static/js/main.84dd5d29.chunk.js"
+    "revision": "14427c65279d9905df8e",
+    "url": "/hoh/static/js/main.38801db6.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/morning_desktop.b8c2fa13.jpg"
   },
   {
-    "revision": "e51dce26b09e7125dcf56ddaf645a0e2",
-    "url": "/hoh/static/media/mountain_day.e51dce26.svg"
+    "revision": "333d0031ced37a80cd12ec52d5034c5d",
+    "url": "/hoh/static/media/mountain_day.333d0031.svg"
   },
   {
     "revision": "b774ab4e76036a7fd28eba89c3f4e607",
@@ -90,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cde0f7a9f11b9d2adb09aa837b287616",
     "url": "/hoh/static/media/night_desktop.cde0f7a9.jpg"
+  },
+  {
+    "revision": "d8a8c0bd1ad252e9e2a1bf2d15e8ed35",
+    "url": "/hoh/static/media/range.d8a8c0bd.png"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
