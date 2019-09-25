@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae4e6ce4f8e5c86192b76c75231cb34f",
+    "revision": "2d01ac07fbded2775d0192339699b80a",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "aeba63839564c5172dbe",
-    "url": "/hoh/static/css/main.ea80b2fb.chunk.css"
+    "revision": "01b8159ba199512b1efe",
+    "url": "/hoh/static/css/main.901ab945.chunk.css"
   },
   {
-    "revision": "ad59584d59a3f73f6939",
-    "url": "/hoh/static/js/2.f581bcc0.chunk.js"
+    "revision": "5292f2bab11224e68e43",
+    "url": "/hoh/static/js/2.02852c8e.chunk.js"
   },
   {
-    "revision": "aeba63839564c5172dbe",
-    "url": "/hoh/static/js/main.785994d3.chunk.js"
+    "revision": "01b8159ba199512b1efe",
+    "url": "/hoh/static/js/main.84dd5d29.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
     "url": "/hoh/static/js/runtime~main.27dce6b4.js"
   },
   {
-    "revision": "234b7bfc2e21b1c230cbff573856daad",
-    "url": "/hoh/static/media/1.234b7bfc.jpg"
+    "revision": "9be797fa4741af9c174fcfc715d6dfdd",
+    "url": "/hoh/static/media/1.9be797fa.jpg"
   },
   {
     "revision": "eceab1f937cb46b341b31c4ed3fbf722",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/evening.895e07b2.jpg"
   },
   {
-    "revision": "940e7cd451545fb81fea6eb28249f82a",
-    "url": "/hoh/static/media/evening.940e7cd4.svg"
+    "revision": "ecddd94058295859513ee010c138a5b3",
+    "url": "/hoh/static/media/evening_desktop.ecddd940.png"
   },
   {
     "revision": "392a676386f6273db9acd55e626a0c5d",
@@ -64,16 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/menu.f2febe0d.svg"
   },
   {
-    "revision": "24494263c09835e7dbca19442657d9d9",
-    "url": "/hoh/static/media/morning.24494263.svg"
-  },
-  {
     "revision": "30e672c6c04df0edb2b4fa3a9d38fa1a",
     "url": "/hoh/static/media/morning.30e672c6.jpg"
   },
   {
-    "revision": "55cfed77ea08aaad7263e9310359680b",
-    "url": "/hoh/static/media/morning_background.55cfed77.png"
+    "revision": "b8c2fa135996ff74ecba637e45ad71cb",
+    "url": "/hoh/static/media/morning_desktop.b8c2fa13.jpg"
   },
   {
     "revision": "e51dce26b09e7125dcf56ddaf645a0e2",
@@ -90,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1800e11a9a6ce972e89dd867ba3a8d1c",
     "url": "/hoh/static/media/night.1800e11a.jpg"
+  },
+  {
+    "revision": "cde0f7a9f11b9d2adb09aa837b287616",
+    "url": "/hoh/static/media/night_desktop.cde0f7a9.jpg"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
