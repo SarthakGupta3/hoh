@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4c48a7727812d3861df3259f569e0fc",
+    "revision": "d56ee751ab7f494d61047492a34022bc",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "14427c65279d9905df8e",
-    "url": "/hoh/static/css/main.ad39893e.chunk.css"
+    "revision": "addf6160621cac01c8e0",
+    "url": "/hoh/static/css/main.c51ae29e.chunk.css"
   },
   {
     "revision": "499e3f5a8e175335be36",
     "url": "/hoh/static/js/2.23fdc887.chunk.js"
   },
   {
-    "revision": "14427c65279d9905df8e",
+    "revision": "addf6160621cac01c8e0",
     "url": "/hoh/static/js/main.38801db6.chunk.js"
   },
   {
@@ -92,8 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/night_desktop.cde0f7a9.jpg"
   },
   {
-    "revision": "d8a8c0bd1ad252e9e2a1bf2d15e8ed35",
-    "url": "/hoh/static/media/range.d8a8c0bd.png"
+    "revision": "d5608670a8eac4725c15e754e9e786eb",
+    "url": "/hoh/static/media/range.d5608670.png"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
