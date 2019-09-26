@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65ea0f3d3456abb392fa8e1bfe8e4d1f",
+    "revision": "5c6a4ee652a33fe81e315340130f51e9",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "15076d6c64fe3dc64665",
-    "url": "/hoh/static/css/main.f11e68e8.chunk.css"
+    "revision": "55627708fa7f595a7d55",
+    "url": "/hoh/static/css/main.c0f46ec0.chunk.css"
   },
   {
     "revision": "499e3f5a8e175335be36",
     "url": "/hoh/static/js/2.23fdc887.chunk.js"
   },
   {
-    "revision": "15076d6c64fe3dc64665",
+    "revision": "55627708fa7f595a7d55",
     "url": "/hoh/static/js/main.1d204588.chunk.js"
   },
   {
@@ -84,10 +84,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hoh/static/media/mountain_evening.adc1f217.png"
   },
   {
-    "revision": "91327b057f922d30af37a9da5acc6585",
-    "url": "/hoh/static/media/mountain_night.91327b05.png"
-  },
-  {
     "revision": "a4260536b31289df19197605feb9c7b8",
     "url": "/hoh/static/media/mountain_night.a4260536.svg"
   },
@@ -102,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5608670a8eac4725c15e754e9e786eb",
     "url": "/hoh/static/media/range.d5608670.png"
+  },
+  {
+    "revision": "b2787325335e426b5f4c985043b2c384",
+    "url": "/hoh/static/media/range_night.b2787325.png"
   },
   {
     "revision": "10bc7c769d69752f2f072c2648766553",
