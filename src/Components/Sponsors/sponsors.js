@@ -23,13 +23,13 @@ class sponsors extends React.Component{
         if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
             if(hour >= 20 || hour <=6){
                 this.setState({
-                    background:'trackContain sponsor-color-night', 
+                    background:'trackContain  sponsor-color-night', 
                     heading:'track-heading sponsor-heading sponsor-heading-night'
                 })
             }
             if(hour >6 && hour <=14){
                 this.setState({
-                    background:'trackContain sponsor-color-morning',
+                    background:'trackContain  sponsor-color-morning',
                     heading:'track-heading sponsor-heading sponsor-heading-morning'
                 })
             }

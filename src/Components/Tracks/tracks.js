@@ -79,7 +79,7 @@ class tracks extends React.Component{
     }
     render(){
         return(
-            <div className={this.state.background} id="tracks" data-aos="zoom-in" data-aos-duration="600">
+            <div className={this.state.background} id="tracks" data-aos="fade-up" data-aos-duration="600">
                     <div className="tracks">
             <h1 className={this.state.heading}>TRACKS</h1>
                 <div className="margin hidden">

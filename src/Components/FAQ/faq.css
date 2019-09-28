@@ -1,5 +1,7 @@
 .faq{
     padding-bottom: 4rem;
+    overflow-x: hidden;
+    white-space: no-wrap;
 }
 .faq, .collapsible{
     width:100%;

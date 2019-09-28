@@ -1,12 +1,9 @@
 .trackContain, .contain{
-    /* background-color:rgba(68, 112, 68, 0.733); */
-    /* background-color: #191919; */
     padding-bottom:2rem;
     position: relative;
     overflow: hidden;
     border-radius:0.5rem;
-    /* border-bottom-left-radius: 7.5rem;
-    border-bottom-right-radius: 7.5rem; */
+    clip-path: circle(100% at 50% 25%);
 }
 
 .hideme{
