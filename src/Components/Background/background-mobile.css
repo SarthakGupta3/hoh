@@ -1,16 +1,19 @@
-.night{
-    background: #0c0c0c;
+.nightM{
+    /* background: #0c0c0c; */
+    background-image:url('../../images/night.jpg');
+    color:white;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.evening{
-    background-image: url('../../images/evening.svg');
+.eveningM{
+    color:black;
+    background-image: url('../../images/evening.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-.day{
-    background-image: url('../../images/morning.svg');
+.dayM{
+    background-image: url('../../images/old_morning_m.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -20,7 +23,7 @@
     position: relative;
     overflow-x:hidden;
     overflow-y:hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 94%, 81% 96%, 32% 92%, 0 95%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 94%, 81% 96%, 32% 92%, 0 95%); */
     /* background-color:whitesmoke; */
 }
 #starsM{
@@ -33,7 +36,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     animation-name:stars;
-    animation-duration:5s;
+    animation-duration:3s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
@@ -206,7 +209,7 @@
     visibility: hidden;
 }
 
-.mediumTree2M{
+/* .mediumTree2M{
     position: absolute;
     z-index:2;
     height: 9rem;
@@ -216,7 +219,7 @@
     animation-duration: 2s;
     animation-fill-mode: forwards;
     visibility: hidden;
-}
+} */
 
 @keyframes pop-1M{
     from{
@@ -255,7 +258,7 @@
 }
 .github-textM{
     font-size:1.8rem;
-    color: white;
+    /* color: white; */
 }
 .Apply{
     width:100%;
@@ -268,7 +271,7 @@
     align-items:center;
 }
 .textadjustM{
-    color:white;
+    /* color:white; */
     margin:0.25rem;
     font-size:1.2rem;
 }

@@ -5,13 +5,14 @@ import menu from '../../images/menu.svg';
 
 class Navbar extends React.Component{
     componentDidMount(){
-        let buttons = document.querySelectorAll('.click');
-        for(let i=0; i<buttons.length;i++){
-            buttons[i].addEventListener('click', function(){
-                let menu = document.querySelector('.menu');
-                menu.classList.toggle('display');
+        let menu = document.querySelector('.menu');
+        menu.addEventListener('click', function(){
+            menu.classList.toggle('display');
         })
-    }
+        let buttons = document.querySelectorAll('.click')[0];
+        buttons.addEventListener('click', function(){
+            menu.classList.toggle('display');
+        })
 }
     
     render(){

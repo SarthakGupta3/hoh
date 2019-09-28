@@ -1,0 +1,29 @@
+.test{
+    height: 25vh;
+}
+
+.range{
+    position: fixed;
+    visibility: hidden;
+    z-index:100;
+    bottom:-2%;
+    left:0%;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+.range-contain{
+    width:100%;
+    height:17rem;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.range-contain-day{
+    background-image:url('../../images/range.png');
+}
+.range-contain-evening{
+    background-image:url('../../images/mountain_evening.png');
+}
+.range-contain-night{
+    background-image:url('../../images/range_night.png');
+}

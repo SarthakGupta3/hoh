@@ -9,6 +9,9 @@ import Sponsors from './Components/Sponsors/sponsors';
 import FAQ from './Components/FAQ/faq';
 import Footer from './Components/Footer/footer';
 import Info from './Components/Info/info';
+import Mountain from './Components/mountains/mountains';
+
+
 import AOS from 'aos';
 
 class App extends React.Component{
@@ -20,9 +23,27 @@ class App extends React.Component{
     });
     let tracks = document.querySelector('.trackContain');
     let track_transit = document.querySelectorAll('.track-transition');
-    // let about = document.querySelector('.about');
-    // about.style.visibility = "hidden";  
+    let scene = document.querySelector('.SceneHolder');
+    let range = document.querySelector('.range');
     window.addEventListener('scroll', function(){
+      if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+        let positionBottomScene = scene.getBoundingClientRect().bottom;
+        range.classList.add('animated');
+        if(positionBottomScene - window.innerHeight <= -(window.innerHeight/8)){
+          // range.style.position = "fixed";
+          range.style.visibility = "visible"; 
+          range.classList.remove('slideOutDown');
+          range.classList.add('slideInUp');
+        }else{
+          // range.style.position = "absolute";
+          range.classList.remove('slideInUp');
+          range.classList.add('slideOutDown'); 
+          range.classList.add('fast');
+          range.style.visibility = 'visible';
+          
+        }
+      }
+      
       for(let i=0; i<track_transit.length;i++){
         let positionTopTrack = track_transit[i].getBoundingClientRect().top;
         if(positionTopTrack - window.innerHeight <=-30){
@@ -66,13 +87,17 @@ class App extends React.Component{
       </div>
     ) : (<div className="App">
        <Scene/>
+       <div className="content">
+       <Mountain/>
        <Info/>
        {/* <About /> */}
        <Tracks/>
-       <Timeline/>
+       {/* <Timeline/> */}
        <Sponsors />
        <FAQ/>
        <Footer />
+       </div>
+      
     </div>);
   }
   

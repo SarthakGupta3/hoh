@@ -5,6 +5,8 @@
     position: relative;
     overflow: hidden;
     border-radius:0.5rem;
+    /* border-bottom-left-radius: 7.5rem;
+    border-bottom-right-radius: 7.5rem; */
 }
 
 .hideme{
@@ -29,20 +31,25 @@
 .fadeIn{
     animation-duration: 4s;
 }
-.color-night{
-   background-color: #191919;
+.color-nightM{
+   background-color:rgba(107, 93, 73, 0.918);
     /* background-image: url('../../images/background.svg'); */
 }
-.color-evening{
+.color-eveningM{
     /* background-image: url(../../images/track_background.svg); */
-    background-color:rgba(136, 17, 57,0.4);
+    background-color:rgba(224, 147, 63, 0.808);
+}
+.color-morningM{
+    background-color: lightblue;
+}
+.color-night{
+    background-color:rgb(214, 193, 214);
+}
+.color-evening{
+    background-color:rgba(107, 49, 49, 0.623);
 }
 .color-morning{
-    /* background-image: url(../../images/track_background.svg); */
-    /* background-image:url('../../images/morning-background.svg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
+    background-color:rgba(180, 214, 180, 0.705);
 }
 .track-image{
     max-width:50%;
@@ -119,8 +126,14 @@
 }
 
 .heading-morning{
-    color:black;
+    color:white;
 }
 .heading-evening, .heading-night{
+    color:white !important;
+}
+.heading-morningM{
+    color:white;
+}
+.heading-eveningM, .heading-nightM{
     color:white !important;
 }

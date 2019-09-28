@@ -6,8 +6,9 @@ body,html{
   background-color:white;
 }
 .body-morningM{
-  background-image: url('./images/body-background.png');
-  background-repeat: repeat-y;
+  /* background-image: url('./images/morning_background.png'); */
+  background-repeat:repeat-y;
+  background-size: cover;
   background-attachment: scroll;
 }
 .body-morning{
@@ -57,4 +58,7 @@ code {
 .App{
   /* background-image: url('./images/background.jpg');
   background-repeat: space; */
+}
+.content{
+  position:relative;
 }

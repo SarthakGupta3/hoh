@@ -16,6 +16,9 @@
     background-color: rgb(255, 255, 255);
     border-radius: 1rem; */
 }
+.sponsorContain{
+    
+}
 .sponsorMargin{
     width:100%;
     padding-top:0.5rem;
@@ -72,23 +75,42 @@
 }
 
 
-
-.sponsor-color-night{
-    background-color:#191919;;
-}
-
-
 .sponsor-color-evening{
-    background-color:rgba(136, 17, 57,0.4);
+    /* background-color:rgba(136, 17, 57,0.4); */
+    /* background-color:rgba(224, 147, 63, 0.808); */
+    background-color:rgba(107, 49, 49, 0.623);
+}
+.sponsor-color-night{
+    background-color:rgb(214, 193, 214);
 }
 .sponsor-color-morning{
-    background-color: transparent;
-    opacity:0.85;
+    background-color:rgba(180, 214, 180, 0.705);
+    /* background-color: transparent; */
+    /* opacity:0.85; */
 }
 
 .sponsor-heading-night, .sponsor-heading-evening{
     color: white;
 }
 .sponsor-heading-morning{
-    color: black;
+    color: white;
+}
+
+.sponsor-color-eveningM{
+    /* background-color:rgba(136, 17, 57,0.4); */
+    background-color:rgba(224, 147, 63, 0.808);
+}
+.sponsor-color-nightM{
+    background-color:rgba(107, 93, 73, 0.918);
+}
+.sponsor-color-morningM{
+    /* background-color: rgba(149, 211, 190, 0.658); */
+    background-color:lightblue;
+}
+
+.sponsor-heading-nightM, .sponsor-heading-eveningM{
+    color: white;
+}
+.sponsor-heading-morningM{
+    color: white;
 }

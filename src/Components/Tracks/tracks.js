@@ -20,32 +20,62 @@ class tracks extends React.Component{
     }
     componentWillMount(){
         let hour = new Date().getHours();
-        if(hour >= 20 || hour <=6){
-            this.setState({
-                background:'trackContain contain color-night',
-                heading:'track-heading heading-night'
-            })
-            document.body.classList.add('body-night');
-        }
-        if(hour >6 && hour <=14){
-            this.setState({
-                background:'trackContain contain color-morning',
-                heading:'track-heading heading-morning'
-            })
-            if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
-                document.body.classList.add('body-morningM');
-            }else{
-                document.body.classList.add('body-morning');
+        if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+            if(hour >= 20 || hour <=6){
+                this.setState({
+                    background:'trackContain contain color-night',
+                    heading:'track-heading heading-night'
+                })
+                document.body.classList.add('body-night');
             }
-            
+            if(hour >6 && hour <=14){
+                this.setState({
+                    background:'trackContain contain color-morning',
+                    heading:'track-heading heading-morning'
+                })
+                if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+                    document.body.classList.add('body-morningM');
+                }else{
+                    document.body.classList.add('body-morning');
+                }
+                
+            }
+            if(hour >14 && hour <20){
+                this.setState({
+                    background:'trackContain contain color-evening',
+                    heading:'track-heading heading-evening'
+                })
+                document.body.classList.add('body-evening');
+            }     
+        }else{
+            if(hour >= 20 || hour <=6){
+                this.setState({
+                    background:'trackContain contain color-nightM',
+                    heading:'track-heading heading-nightM'
+                })
+                document.body.classList.add('body-night');
+            }
+            if(hour >6 && hour <=14){
+                this.setState({
+                    background:'trackContain contain color-morningM',
+                    heading:'track-heading heading-morningM'
+                })
+                if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+                    document.body.classList.add('body-morningM');
+                }else{
+                    document.body.classList.add('body-morning');
+                }
+                
+            }
+            if(hour >14 && hour <20){
+                this.setState({
+                    background:'trackContain contain color-eveningM',
+                    heading:'track-heading heading-eveningM'
+                })
+                document.body.classList.add('body-evening');
+            }     
         }
-        if(hour >14 && hour <20){
-            this.setState({
-                background:'trackContain contain color-evening',
-                heading:'track-heading heading-evening'
-            })
-            document.body.classList.add('body-evening');
-        }     
+        
     }
     render(){
         return(

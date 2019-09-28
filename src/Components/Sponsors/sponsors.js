@@ -20,24 +20,46 @@ class sponsors extends React.Component{
     }
     componentWillMount(){
         let hour = new Date().getHours();
-        if(hour >= 20 || hour <=6){
-            this.setState({
-                background:'trackContain sponsor-color-night', 
-                heading:'track-heading sponsor-heading sponsor-heading-night'
-            })
+        if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+            if(hour >= 20 || hour <=6){
+                this.setState({
+                    background:'trackContain sponsor-color-night', 
+                    heading:'track-heading sponsor-heading sponsor-heading-night'
+                })
+            }
+            if(hour >6 && hour <=14){
+                this.setState({
+                    background:'trackContain sponsor-color-morning',
+                    heading:'track-heading sponsor-heading sponsor-heading-morning'
+                })
+            }
+            if(hour >14 && hour <20){
+                this.setState({
+                    background:'trackContain sponsor-color-evening', 
+                    heading:'track-heading sponsor-heading sponsor-heading-evening'
+                })
+            }
+        }else{
+            if(hour >= 20 || hour <=6){
+                this.setState({
+                    background:'trackContain sponsorContain sponsor-color-nightM', 
+                    heading:'track-heading sponsor-heading sponsor-heading-nightM'
+                })
+            }
+            if(hour >6 && hour <=14){
+                this.setState({
+                    background:'trackContain sponsorContain sponsor-color-morningM',
+                    heading:'track-heading sponsor-heading sponsor-heading-morningM'
+                })
+            }
+            if(hour >14 && hour <20){
+                this.setState({
+                    background:'trackContain sponsorContain sponsor-color-eveningM', 
+                    heading:'track-heading sponsor-heading sponsor-heading-eveningM'
+                })
+            }
         }
-        if(hour >6 && hour <=14){
-            this.setState({
-                background:'trackContain sponsor-color-morning',
-                heading:'track-heading sponsor-heading sponsor-heading-morning'
-            })
-        }
-        if(hour >14 && hour <20){
-            this.setState({
-                background:'trackContain sponsor-color-evening', 
-                heading:'track-heading sponsor-heading sponsor-heading-evening'
-            })
-        }
+        
     }
 
     render(){

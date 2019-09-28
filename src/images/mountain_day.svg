@@ -17,11 +17,11 @@
 </g>
 <defs>
 <linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.70793e-14 852.367 -1585.42 5.21925e-14 1435.79 14.6329)">
-<stop offset="0" stop-color="#FFFF66"/>
+<stop offset="0" stop-color="#8CC43B"/>
 <stop offset="0.961326" stop-color="gray" stop-opacity="1"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(9.70793e-14 852.367 -1585.42 5.21924e-14 883.292 14.633)">
-<stop offset="0.0331492" stop-color="#FFFF66"/>
+<stop offset="0.0331492" stop-color="#394B1E"/>
 <stop offset="1" stop-color="gray"/>
 </linearGradient>
 <path id="path0_fill" d="M 606.693 0L 0 912L 1182 912L 606.693 0Z"/>

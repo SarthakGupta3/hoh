@@ -27,7 +27,7 @@ class Scene extends React.Component{
                 mountain:mountainDay,
                 stars:false,
                 background:'day SceneHolder',
-                sun:true
+                sun:false
             })
         }
         if(hour >14 && hour <20){
@@ -43,17 +43,17 @@ class Scene extends React.Component{
         return(
         <div className={this.state.background}>
                 <Navbar/>
-                <img id="bigMountain" src={this.state.mountain} alt=""></img>
+                {/* <img id="bigMountain" src={this.state.mountain} alt=""></img>
                 <img id="mediumMountain" src={this.state.mountain} alt=""></img>
                 <img id="tallTree1" src={Tree} alt=""></img>
                 <img id="mediumTree1" src={Tree} alt=""></img>
                 <img id="tallTree2" src={Tree} alt=""></img>
                 <img id="mediumTree2" src={Tree} alt=""></img>
-                <img id="mediumTree3" src={Tree} alt=""></img>  
+                <img id="mediumTree3" src={Tree} alt=""></img>   */}
                 {(this.state.stars) ? <div id="stars"></div> : null}
                 {(this.state.sun) ? <div id="sun"></div> : null}
                 <div id="github">
-                    <h3 className="text-adjust github-text animated one swing slow">HACK ON HILLS</h3>
+                    <h3 className="text-adjust github-text animated one fadeInUp slow">HACK ON HILLS</h3>
                     <h5 className="textadjust animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
                     <h6 className="textadjust animated one fadeIn slow delay-1s">8 - 10 March 2019</h6> 
                 </div>

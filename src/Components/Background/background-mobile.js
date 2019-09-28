@@ -21,7 +21,7 @@ class SceneMobile extends React.Component{
             this.setState({
                 mountain:mountainNight,
                 stars:true,
-                background:'night SceneHolderM',
+                background:'nightM SceneHolderM',
                 sun:false
             })
         }
@@ -29,15 +29,15 @@ class SceneMobile extends React.Component{
             this.setState({
                 mountain:mountainDay,
                 stars:false,
-                background:'day SceneHolderM',
-                sun:true
+                background:'dayM SceneHolderM',
+                sun:false
             })
         }
         if(hour >14 && hour <20){
             this.setState({
                 mountain:mountainEvening,
                 stars:true,
-                background:'evening SceneHolderM',
+                background:'eveningM SceneHolderM',
                 sun:false
             })
         }
@@ -46,10 +46,10 @@ class SceneMobile extends React.Component{
         return(
                 <div className={this.state.background} id="home">
                 <Navbar/>
-                <img className="bigMountainM" src={this.state.mountain} alt=""></img>
-                <img className="mediumMountainM" src={this.state.mountain} alt=""></img>
+                {/* <img className="bigMountainM" src={this.state.mountain} alt=""></img>
+                <img className="mediumMountainM" src={this.state.mountain} alt=""></img> */}
                 {/* <img className="mediumMountainM" src={this.state.mountain} alt=""></img> */}
-                <img className="tallTree tree1" src={Tree} alt=""></img>
+                {/* <img className="tallTree tree1" src={Tree} alt=""></img>
                 <img className="tallTree tree2" src={Tree} alt=""></img>
                 <img className="tallTree tree3" src={Tree} alt=""></img>
                 <img className="tallTree tree4" src={Tree} alt=""></img>
@@ -66,12 +66,12 @@ class SceneMobile extends React.Component{
                 <img className="tallTree tree16" src={Tree} alt=""></img>
                 <img className="tallTree tree17" src={Tree} alt=""></img>
                 <img className="tallTree tree18" src={Tree} alt=""></img>
-                <img className="tallTree tree19" src={Tree} alt=""></img>
+                <img className="tallTree tree19" src={Tree} alt=""></img> */}
                 {(this.state.stars) ? <div id="starsM"></div> : null}
                 {(this.state.sun) ? <div id="sunM"></div> : null}
                 
                 <div id="githubM">
-                    <h3 className="text-adjustM github-textM animated one swing slow">HACK ON HILLS</h3>
+                    <h3 className="text-adjustM github-textM animated one fadeInUp slow">HACK ON HILLS</h3>
                     <h5 className="textadjustM animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
                     <h6 className="textadjustM animated one fadeIn slow delay-1s">8 - 10 March 2019</h6> 
                 </div>

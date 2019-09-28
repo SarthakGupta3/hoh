@@ -2,18 +2,18 @@ body{
     font-family: 'Manjari', sans-serif;
 }
 .night{
-    background: #0c0c0c;
+   background-image: url('../../images/night_desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .evening{
-    background-image: url('../../images/evening.svg');
+    background-image: url('../../images/evening_desktop.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .day{
-    background-image: url('../../images/morning.svg');
+    background-image: url('../../images/morning_desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ body{
     z-index: 3;
     background-image: url('../../images/Stars.svg');
     animation-name:stars;
-    animation-duration:5s;
+    animation-duration:3s;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
 }
