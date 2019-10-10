@@ -2,7 +2,7 @@
     padding-bottom:2rem;
     position: relative;
     overflow: hidden;
-    border-radius:0.5rem;
+    /* border-radius:0.5rem; */
     clip-path: circle(100% at 50% 25%);
 }
 
@@ -40,13 +40,21 @@
     background-color: lightblue;
 }
 .color-night{
-    background-color:rgb(214, 193, 214);
+    /* background-color:rgb(214, 193, 214); */
+    /* background-color:rgba(34, 13, 61, 0.95); */
+    background-color: rgba(9, 22, 56, 0.833);
 }
 .color-evening{
-    background-color:rgba(107, 49, 49, 0.623);
+    /* background-color:rgba(107, 49, 49, 0.623); */
+    background-color: rgba(34,1,1,0.95);
+
 }
 .color-morning{
-    background-color:rgba(180, 214, 180, 0.705);
+    /* background-color:rgba(180, 214, 180, 0.705); */
+    /* background-color: rgba(0, 26, 15, 0.905); */
+    /* background-color: rgba(30, 49, 70,0.98); */
+    background-color: #1e1e4dce;
+    
 }
 .track-image{
     max-width:50%;

@@ -64,7 +64,7 @@ class sponsors extends React.Component{
 
     render(){
         return(
-            <div className={this.state.background} id="sponsors" data-aos="zoom-in" data-aos-duration="600">
+            <div className={this.state.background} id="sponsors">
                 
             <div className="tracks hidden">
             <h1 className={this.state.heading}>SPONSORS</h1>

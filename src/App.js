@@ -24,25 +24,25 @@ class App extends React.Component{
     let tracks = document.querySelector('.trackContain');
     let track_transit = document.querySelectorAll('.track-transition');
     let scene = document.querySelector('.SceneHolder');
-    let range = document.querySelector('.range');
+    // let range = document.querySelector('.range');
     window.addEventListener('scroll', function(){
-      if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
-        let positionBottomScene = scene.getBoundingClientRect().bottom;
-        range.classList.add('animated');
-        if(positionBottomScene - window.innerHeight <= -(window.innerHeight/8)){
-          // range.style.position = "fixed";
-          range.style.visibility = "visible"; 
-          range.classList.remove('slideOutDown');
-          range.classList.add('slideInUp');
-        }else{
-          // range.style.position = "absolute";
-          range.classList.remove('slideInUp');
-          range.classList.add('slideOutDown'); 
-          range.classList.add('fast');
-          range.style.visibility = 'visible';
+      // if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
+      //   let positionBottomScene = scene.getBoundingClientRect().bottom;
+      //   range.classList.add('animated');
+      //   if(positionBottomScene - window.innerHeight <= -(window.innerHeight/8)){
+      //     // range.style.position = "fixed";
+      //     range.style.visibility = "visible"; 
+      //     range.classList.remove('slideOutDown');
+      //     range.classList.add('slideInUp');
+      //   }else{
+      //     // range.style.position = "absolute";
+      //     range.classList.remove('slideInUp');
+      //     range.classList.add('slideOutDown'); 
+      //     range.classList.add('fast');
+      //     range.style.visibility = 'visible';
           
-        }
-      }
+      //   }
+      // }
       
       for(let i=0; i<track_transit.length;i++){
         let positionTopTrack = track_transit[i].getBoundingClientRect().top;
@@ -50,14 +50,6 @@ class App extends React.Component{
             track_transit[i].classList.add('slide-down');
         }
       }
-    //   let positionTopAbout = about.getBoundingClientRect().top;
-    //   if(positionTopAbout - window.innerHeight <=-50){
-    //     about.style.visibility="visible";
-    //       about.classList.add('animated');
-    //       about.classList.add('one');
-    //       about.classList.add('flipInY');
-    //       about.classList.add('fast');
-    // }
     tracks.style.visibility="hidden";
     let positionTopTracks = tracks.getBoundingClientRect().top;
     if(positionTopTracks - window.innerHeight <=-40){
@@ -78,7 +70,6 @@ class App extends React.Component{
     return (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) ? (
       <div className="App">
         <SceneMobile/>
-          {/* <About /> */}
           <Tracks/>
           <Timeline/>
           <Sponsors/>
@@ -87,15 +78,19 @@ class App extends React.Component{
       </div>
     ) : (<div className="App">
        <Scene/>
+       <div className="gradients">
+        {/* <div className="gradient1"></div>
+        <div className="gradient2"></div>
+        <div className="gradient3"></div>
+        <div className="gradient4"></div> */}
+       </div>
+       
        <div className="content">
-       <Mountain/>
-       <Info/>
-       {/* <About /> */}
-       <Tracks/>
-       {/* <Timeline/> */}
-       <Sponsors />
-       <FAQ/>
-       <Footer />
+          <Info/>
+          <Tracks/>
+          <Sponsors />
+          <FAQ/>
+          <Footer />
        </div>
       
     </div>);

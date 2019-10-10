@@ -2,8 +2,9 @@ body{
     font-family: 'Manjari', sans-serif;
 }
 .night{
-   background-image: url('../../images/night_desktop.jpg');
+   background-image: url('../../images/night_desktop.gif');
     background-size: cover;
+    background-position-y:75%;
     background-repeat: no-repeat;
 }
 
@@ -13,7 +14,7 @@ body{
     background-repeat: no-repeat;
 }
 .day{
-    background-image: url('../../images/morning_desktop.jpg');
+    background-image: url('../../images/morning_desktop.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -132,11 +133,11 @@ body{
 
 .SceneHolder{
     width:100%;
-    height:110vh;
+    height:130vh;
     position: relative;
     overflow-x:hidden;
     overflow-y:hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 94%, 81% 96%, 32% 92%, 0 95%);
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 81% 112%, 32% 92%, 0 95%);
 }
 
 #bigMountain{
