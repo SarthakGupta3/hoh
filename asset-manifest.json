@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hoh/static/css/main.df2ea212.chunk.css",
+    "main.css": "/hoh/static/css/main.2867d847.chunk.css",
     "main.js": "/hoh/static/js/main.cfd52e1c.chunk.js",
     "main.js.map": "/hoh/static/js/main.cfd52e1c.chunk.js.map",
     "runtime~main.js": "/hoh/static/js/runtime~main.27dce6b4.js",
@@ -8,9 +8,9 @@
     "static/js/2.fcab268e.chunk.js": "/hoh/static/js/2.fcab268e.chunk.js",
     "static/js/2.fcab268e.chunk.js.map": "/hoh/static/js/2.fcab268e.chunk.js.map",
     "index.html": "/hoh/index.html",
-    "precache-manifest.303ebc73d617d74fbbf79e01fef775aa.js": "/hoh/precache-manifest.303ebc73d617d74fbbf79e01fef775aa.js",
+    "precache-manifest.a9f9cc52fe44745b77f65efc7534da57.js": "/hoh/precache-manifest.a9f9cc52fe44745b77f65efc7534da57.js",
     "service-worker.js": "/hoh/service-worker.js",
-    "static/css/main.df2ea212.chunk.css.map": "/hoh/static/css/main.df2ea212.chunk.css.map",
+    "static/css/main.2867d847.chunk.css.map": "/hoh/static/css/main.2867d847.chunk.css.map",
     "static/media/1.jpg": "/hoh/static/media/1.9be797fa.jpg",
     "static/media/Coding_blocks.png": "/hoh/static/media/Coding_blocks.eceab1f9.png",
     "static/media/background-mobile.css": "/hoh/static/media/sunny.fbbe405e.svg",
