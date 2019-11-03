@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cc7b5279bff6a0d88c65c47372b14ee",
+    "revision": "39de1294e71b85ebcf69afc75d74771d",
     "url": "/hoh/index.html"
   },
   {
-    "revision": "8529e7d1af2ecc0ae36d",
-    "url": "/hoh/static/css/main.06f4d93e.chunk.css"
+    "revision": "9f6744349c6ec35c8775",
+    "url": "/hoh/static/css/main.dfd1aaf7.chunk.css"
   },
   {
-    "revision": "479cf42e62b15f4195a1",
-    "url": "/hoh/static/js/2.3ff826e7.chunk.js"
+    "revision": "1f346a2e2e3adc9c31de",
+    "url": "/hoh/static/js/2.a3864b9b.chunk.js"
   },
   {
-    "revision": "8529e7d1af2ecc0ae36d",
-    "url": "/hoh/static/js/main.99fcb6e3.chunk.js"
+    "revision": "9f6744349c6ec35c8775",
+    "url": "/hoh/static/js/main.8fa4a3db.chunk.js"
   },
   {
     "revision": "8642264b50fa9c7c48f6",
     "url": "/hoh/static/js/runtime~main.27dce6b4.js"
   },
   {
-    "revision": "9be797fa4741af9c174fcfc715d6dfdd",
-    "url": "/hoh/static/media/1.9be797fa.jpg"
+    "revision": "b5ad3a17778a1482e9453ee9c53f91e8",
+    "url": "/hoh/static/media/1.b5ad3a17.jpg"
+  },
+  {
+    "revision": "7e1a475ca9d0be6e8f342ee922d5801d",
+    "url": "/hoh/static/media/2.7e1a475c.jpg"
+  },
+  {
+    "revision": "0ef36447c418ec68d3d0c0379e3a815b",
+    "url": "/hoh/static/media/3.0ef36447.jpg"
+  },
+  {
+    "revision": "88b2da01b4ce0361386a4a7e0697fec0",
+    "url": "/hoh/static/media/6.88b2da01.jpg"
+  },
+  {
+    "revision": "fa88fa0d0fa4d65254d7ae0a3b247c35",
+    "url": "/hoh/static/media/7.fa88fa0d.jpg"
+  },
+  {
+    "revision": "091ac6c8c05bfb85e78bc175dfc28168",
+    "url": "/hoh/static/media/9.091ac6c8.jpg"
   },
   {
     "revision": "eceab1f937cb46b341b31c4ed3fbf722",
@@ -38,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e2d58d2f6b26fa977d3946f08040b9e",
     "url": "/hoh/static/media/blockchain.2e2d58d2.png"
+  },
+  {
+    "revision": "ebce7ebdfa10a1239bb5efc91fe32c17",
+    "url": "/hoh/static/media/diversity.ebce7ebd.jpg"
   },
   {
     "revision": "459546f90b8a790cc4422c495a50695c",
