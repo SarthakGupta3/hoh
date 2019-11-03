@@ -51,19 +51,19 @@ class Footer extends React.Component{
             <div className={this.state.footer} data-aos="zoom-in" data-aos-duration="600">
                 <div className="links-ico">
                     <div className="nav-icons">
-                        <a href="instagram" className={this.state.icon}><i className="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://instagram.com/hackonhills?igshid=1v08cqj5kzwxp" className={this.state.icon} target="_blank"><i className="fab fa-instagram fa-lg"></i></a>
                         <a href="telegram" className={this.state.icon}><i className="fab fa-telegram-plane fa-lg"></i></a>
-                        <a href="facebook" className={this.state.icon}><i className="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://www.facebook.com/hackonhills/" className={this.state.icon} target="_blank"><i className="fab fa-facebook fa-lg"></i></a>
                         <a href="twitter" className={this.state.icon}><i className="fab fa-twitter fa-lg"></i></a>
-                        <a href="telegram" className={this.state.icon}><i className="fab fa-telegram-plane fa-lg"></i></a>
-                        <a href="facebook" className={this.state.icon}><i className="fab fa-facebook fa-lg"></i></a>
-                        <a href="twitter" className={this.state.icon}><i className="fab fa-twitter fa-lg"></i></a>
-
+                    </div>
+                    <div className="codeofconduct">
+                      <a href="https://hackcodeofconduct.org/1232-hack_on_hills" className="codeofconducthref" target="_blank">Code of Conduct</a>
                     </div>
                     <div className="copyright">
                         <div className="copyright-ico"><i className="far fa-copyright"></i></div>
                         <p className="adjust-text-copyright">2020 Team Hack on Hills</p>
                     </div>
+                    
                 </div>
             </div>  
         )

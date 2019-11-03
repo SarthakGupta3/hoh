@@ -54,4 +54,13 @@
 .icon-morningM{
     color:lightblue;
 }
-
+.codeofconduct{
+    display: flex;
+    justify-content: center;
+    font-size:0.9rem;
+    padding-top:1rem;
+}
+.codeofconducthref{
+    color:#0f0f0fe3;
+    text-decoration: none;
+}

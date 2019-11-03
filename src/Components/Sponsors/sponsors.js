@@ -81,7 +81,7 @@ class sponsors extends React.Component{
             <div className={this.state.background} id="sponsors">
                 
             <div className="tracks hidden">
-            <h1 className={this.state.heading}>SPONSORS</h1>
+            <h1 className={this.state.heading}>PAST SPONSORS</h1>
                 <div className="background-white">
                 <h2 id="sponsorHeadContain"><img id="sponsorHead" src={Github} alt=""></img></h2>
                 <div className="margin sponsorMargin">

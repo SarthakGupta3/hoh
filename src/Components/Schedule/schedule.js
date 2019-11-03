@@ -8,70 +8,70 @@ class Schedule extends React.Component{
                 <h1 className="schedule-head">SCHEDULE</h1>
                 <div className="Schedule-card">
                 <div className="Schedule-day">
-                    <p className="Day-current">17th march</p>
+                    <p className="Day-current">Date</p>
                 </div>
                 <div className="Schedule-items">
                     <div className="schedule-single-item">
-                        <h4 className="item-head">4:00 PM</h4>
-                        <p>Inaugration</p>
+                        <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p>Schedule + Rules of Events</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">6:00 PM - 7:00 PM</h4>
-                        <p>Doubts and Team formation discussions</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p>Schedule + Rules of Events</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                 </div>
             </div>
             <div className="Schedule-card">
                 <div className="Schedule-day">
-                    <p className="Day-current">17th march</p>
+                    <p className="Day-current">Date</p>
                 </div>
                 <div className="Schedule-items">
                     <div className="schedule-single-item">
-                        <h4 className="item-head">4:00 PM</h4>
-                        <p>Inaugration</p>
+                        <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p>Schedule + Rules of Events</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">6:00 PM - 7:00 PM</h4>
-                        <p>Doubts and Team formation discussions</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p>Schedule + Rules of Events</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                 </div>
             </div>
             <div className="Schedule-card">
                 <div className="Schedule-day">
-                    <p className="Day-current">17th march</p>
+                    <p className="Day-current">Date</p>
                 </div>
                 <div className="Schedule-items">
                     <div className="schedule-single-item">
-                        <h4 className="item-head">4:00 PM</h4>
-                        <p>Inaugration</p>
+                        <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p>Schedule + Rules of Events</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">6:00 PM - 7:00 PM</h4>
-                        <p>Doubts and Team formation discussions</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                     <div className="schedule-single-item">
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p>Schedule + Rules of Events</p>
+                    <h4 className="item-head">Time</h4>
+                        <p>Event</p>
                     </div>
                 </div>
             </div>

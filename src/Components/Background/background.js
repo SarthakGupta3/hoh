@@ -56,13 +56,13 @@ class Scene extends React.Component{
                 <div id="github">
                     <h3 className="text-adjust github-text animated one fadeInUp slow">HACK ON HILLS</h3>
                     <h5 className="textadjust animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
-                    <h6 className="textadjust animated one fadeIn slow delay-1s">8 - 10 March 2019</h6> 
+                    <h6 className="textadjust animated one fadeIn slow delay-1s">13 - 15 March 2020</h6> 
                 </div>
 
                 <div className="Apply">
                     <a href="#devfolio" id="register">Register</a>
                 </div>
-                <img src={logo} alt="" className="hoh-logo"></img>
+                {/* <img src={logo} alt="" className="hoh-logo"></img> */}
         </div>);
     }
 }
