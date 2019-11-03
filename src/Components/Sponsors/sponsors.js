@@ -4,19 +4,33 @@ import '../Tracks/tracks.css';
 import './sponsors.css';
 
 import Github from '../../images/github_logo.png';
-import CodingBlocks from '../../images/Coding_blocks.png';
-import Simba from '../../images/simba.png';
 import ebizOn from '../../images/ebiz.png';
-import sketch from '../../images/sketch.png';
+import Devfolio from '../../images/devfolio.png';
+import Simba from '../../images/simba.png';
+import quikNode from '../../images/QuikNode.png';
+import Matic from '../../images/Matic_Logo.png';
+import metabrainz from '../../images/meta.png';
 import gitlab from '../../images/gitlab.png';
-// import anime from 'animejs';
-// import AOS from 'aos';
-
+import govtlogo from '../../images/govt_logo.png';
+import CodingBlocks from '../../images/Coding_blocks.png';
+import zulip from '../../images/zulip-logo.png';
+import hasura from '../../images/hasura.png';
+import roposo from '../../images/roposo.png';
+import socialcops from '../../images/socialcops.png';
+import stickermule from '../../images/stickermule.png';
+import stickwidit from '../../images/stickwidit.png';
+import DUAssassins from '../../images/duAssassins.jpg';
+import HelloIntern from '../../images/hellointern.png';
+import ohcampus from '../../images/ohcampus.png';
+import producthunt from '../../images/product-hunt.png';
+import sketch from '../../images/sketch.png';
+import creativeTim from '../../images/creativeTim.png';
+import bugsee from '../../images/bugsee.png';
 
 
 class sponsors extends React.Component{
     state={
-        items:[CodingBlocks,Simba, ebizOn, sketch, gitlab]
+        items:[ebizOn,Devfolio,Simba,hasura,Matic,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickermule,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee]
     }
     componentWillMount(){
         let hour = new Date().getHours();

@@ -4,22 +4,18 @@ body,html{
   /* background-color: rgb(34, 1, 1); */
 }
 .body-night{
-  /* background-color: rgba(9, 24, 58, 0.863); */
   background-color: rgba(9, 22, 56, 0.853);
 }
 .body-evening{
   background-color: rgba(34,1,1);
 }
+.body-morning{
+  background-color: #1e1e4dd5;
+}
 .body-morningM{
   background-repeat:repeat-y; 
   background-size: cover;
   background-attachment: scroll;
-}
-.body-morning{
-  /* background-color: rgba(0, 26, 15, 0.925); */
-  /* background-color: rgba(177, 152, 107, 0.856); */
-  /* background-color: rgba(30, 49, 70,1); */
-  background-color: #1e1e4dd5;
 }
 body {
   position: relative;
@@ -36,17 +32,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.desktop{
+  display: flex;
+  justify-content: center;
+}
 .App{
   background-color: transparent;
   position: relative;
 }
 .content{
   width:90%;
-  margin:0 auto;
   position: absolute;
-  left:5%;
-  top:90%;
+    top:90%;
   background-color: white;
   border-radius:1rem; 
   border:none;
@@ -58,7 +55,7 @@ code {
   background-repeat: repeat-y;
   background-size:100% auto;
   background-attachment: scroll; */
-.gradient1{
+/* .gradient1{
   background-image:linear-gradient( rgba(34,1,1) 40%,rgba(34,1,1,0.3) 10%, rgba(255, 166, 0, 0.856)); 
   width:100%;
   height:100vh;
@@ -79,4 +76,4 @@ code {
   background-image:linear-gradient(rgba(255, 166, 0, 0.856) 50%, rgba(34,1,1));
   width:100%;
   height:100vh;
-}
+} */

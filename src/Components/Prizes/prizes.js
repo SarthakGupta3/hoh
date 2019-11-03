@@ -2,16 +2,22 @@ import React from 'react';
 
 import './prize.css';
 
-import logo from '../../images/1.jpg';
+import image1 from '../../images/1.jpg';
+import image2 from '../../images/2.jpg';
+import image3 from '../../images/3.jpg';
+import image6 from '../../images/6.jpg';
+import image7 from '../../images/7.jpg';
+import image9 from '../../images/9.jpg';
 
 
 
 class prizes extends React.Component{
     state={
-        items:[{item:logo},
-        {item:logo}, 
-        {item:logo}, 
-        {item:logo}]
+        items:[{item:image1},
+        {item:image2}, 
+        {item:image3}, 
+        {item:image6},
+        {item:image7}]
     }
     render(){
         return(

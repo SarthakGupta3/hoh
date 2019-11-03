@@ -7,6 +7,7 @@ import mountainEvening from '../../images/mountain_evening.svg';
 import mountainNight from '../../images/mountain_night.svg';
 import Tree from '../../images/tall_tree.svg';
 import Navbar from '../Navbar/navbar';
+import logo from '../../images/hoh.png';
 
 class Scene extends React.Component{
     state={
@@ -61,6 +62,7 @@ class Scene extends React.Component{
                 <div className="Apply">
                     <a href="#devfolio" id="register">Register</a>
                 </div>
+                <img src={logo} alt="" className="hoh-logo"></img>
         </div>);
     }
 }

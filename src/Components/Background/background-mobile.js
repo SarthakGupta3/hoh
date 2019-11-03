@@ -6,7 +6,7 @@ import './background-mobile.css';
 import mountainDay from '../../images/mountain_day.svg';
 import mountainEvening from '../../images/mountain_evening.svg';
 import mountainNight from '../../images/mountain_night.svg';
-
+import logo from '../../images/hoh.png';
 import Tree from '../../images/tall_tree.svg';
 import Navbar from '../Navbar/navbar';
 
@@ -79,7 +79,7 @@ class SceneMobile extends React.Component{
                 <div className="Apply">
                     <a href="#devfolio" id="register">Register</a>
                 </div>
-                
+                <img src={logo} alt="" className="hoh-logoM"></img>
         </div>
         );
     }

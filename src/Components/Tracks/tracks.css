@@ -3,7 +3,7 @@
     position: relative;
     overflow: hidden;
     /* border-radius:0.5rem; */
-    clip-path: circle(100% at 50% 25%);
+    /* clip-path: circle(100% at 50% 25%); */
 }
 
 .hideme{

@@ -13,19 +13,20 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
   overflow: -moz-scrollbars-none;
-  scrollbar-width: none;
+  scrollbar-width:0 !important;
 }
-.prize { -ms-overflow-style: none; }
-/* ::-webkit-scrollbar {
-    width: 0px;
+.prizes { -ms-overflow-style: none; }
+.prizes::-webkit-scrollbar {
+    width: 0 !important;
     background: transparent;
-} */
+}
 
 .item{
     height: 10rem;
     display: inline-block;
     width:60%;
     padding:1rem;
+    padding-bottom:0rem;
     /* border:2px solid rgb(9, 51, 94); */
     border-radius: 1rem;
     margin:1rem;
@@ -63,5 +64,11 @@
     .prizeAmt{
         display: flex;
         justify-content: center;
+    }
+}
+@media screen and (min-width:800px){
+    .prizeImage{
+        height: 20rem
+        ;
     }
 }

@@ -9,7 +9,7 @@
     font-weight: 600;
 }
 .collapsible{
-    margin:0.75rem 0rem;
+    margin:0.75rem 0.75rem;
 }
 .faq-heading{
     display: flex;
@@ -24,7 +24,7 @@
     width:85%;
     text-align: justify;
     padding:0.50rem;
-    margin:0rem 0.25rem;
+    margin:0rem 0rem;
     border-left:1px solid rgb(9, 51, 94);
 }
 .answer{
@@ -51,6 +51,7 @@
 .icon-adjust-question{
     width:5%;
     padding:0.2rem;
+    padding-right:0.4rem;
     padding-left:0.5rem;
     display: flex;
     justify-content: center;

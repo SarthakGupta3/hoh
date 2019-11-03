@@ -1,0 +1,4 @@
+.schedule_desktop{
+    display: flex;
+    flex-direction: row;
+}

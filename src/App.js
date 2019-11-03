@@ -10,6 +10,8 @@ import FAQ from './Components/FAQ/faq';
 import Footer from './Components/Footer/footer';
 import Info from './Components/Info/info';
 import Mountain from './Components/mountains/mountains';
+import Splash from './Components/Splash/splash';
+import AboutM from './Components/About-mobile/about-mobile'
 
 
 import AOS from 'aos';
@@ -26,23 +28,6 @@ class App extends React.Component{
     let scene = document.querySelector('.SceneHolder');
     // let range = document.querySelector('.range');
     window.addEventListener('scroll', function(){
-      // if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
-      //   let positionBottomScene = scene.getBoundingClientRect().bottom;
-      //   range.classList.add('animated');
-      //   if(positionBottomScene - window.innerHeight <= -(window.innerHeight/8)){
-      //     // range.style.position = "fixed";
-      //     range.style.visibility = "visible"; 
-      //     range.classList.remove('slideOutDown');
-      //     range.classList.add('slideInUp');
-      //   }else{
-      //     // range.style.position = "absolute";
-      //     range.classList.remove('slideInUp');
-      //     range.classList.add('slideOutDown'); 
-      //     range.classList.add('fast');
-      //     range.style.visibility = 'visible';
-          
-      //   }
-      // }
       
       for(let i=0; i<track_transit.length;i++){
         let positionTopTrack = track_transit[i].getBoundingClientRect().top;
@@ -70,13 +55,14 @@ class App extends React.Component{
     return (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) ? (
       <div className="App">
         <SceneMobile/>
+        <AboutM/>
           <Tracks/>
           <Timeline/>
           <Sponsors/>
           <FAQ/>   
           <Footer />   
       </div>
-    ) : (<div className="App">
+    ) : (<div className="App desktop">
        <Scene/>
        <div className="gradients">
         {/* <div className="gradient1"></div>
@@ -86,7 +72,7 @@ class App extends React.Component{
        </div>
        
        <div className="content">
-          <Info/>
+          <About/>
           <Tracks/>
           <Sponsors />
           <FAQ/>

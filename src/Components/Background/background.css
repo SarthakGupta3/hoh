@@ -56,7 +56,7 @@ body{
     overflow-y: hidden;
 }
 .github-text{
-    font-size:1.8rem;
+    font-size:2.5rem;
     color: white;
 }
 .Apply{
@@ -262,67 +262,6 @@ body{
     }
 }
 
-@media screen and (min-height:992px){
-    #bigMountain{
-        position: absolute;
-        z-index:1;
-        height:60rem;
-        bottom:0;
-        left:5%;
-    }
-    
-    #mediumMountain{
-        position: absolute;
-        z-index: 1;
-        height: 40rem;
-        bottom:0;
-        right:5%;
-    }
-    
-    #tallTree1{
-        position: absolute;
-        z-index:2;
-        height:28rem;
-        bottom:0;
-        left:0;
-        right:0;
-
-    }
-    
-    #mediumTree1{
-        position: absolute;
-        z-index:2;
-        height: 20rem;
-        bottom:0;
-        right:0;  
-  
-    }
-    
-    #tallTree2{  
-        position: absolute;
-        z-index:3;
-        height: 28rem;
-        bottom:0;
-        right:40%;  
- 
-    }
-    
-    #mediumTree2{
-        position: absolute;
-        z-index:2;
-        height: 18rem;
-        bottom:0;
-        right:50%; 
-       
-    }
-    #mediumTree3{
-        position: absolute;
-        z-index:2;
-        height: 20rem;
-        bottom:0;
-        right:35%;  
-    }
-}
 
 @keyframes pop-1{
     0%{
@@ -366,4 +305,20 @@ body{
   100%{
       opacity: 0.15;
   }
+}
+.hoh-logo{
+    width:4rem !important;
+    height:4rem !important;
+    position: absolute;
+    z-index:10;
+    top:2%;
+    left:2%;
+}
+.hoh-logoM{
+    width:2.5rem !important;
+    height:2.5rem !important;
+    position: absolute;
+    z-index:10;
+    top:2%;
+    left:2%;
 }

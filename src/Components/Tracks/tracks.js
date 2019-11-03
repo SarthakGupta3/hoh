@@ -33,11 +33,7 @@ class tracks extends React.Component{
                     background:'trackContain contain color-morning',
                     heading:'track-heading heading-morning'
                 })
-                if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
-                    document.body.classList.add('body-morningM');
-                }else{
-                    document.body.classList.add('body-morning');
-                }
+                document.body.classList.add('body-morning');
                 
             }
             if(hour >14 && hour <20){
@@ -53,26 +49,18 @@ class tracks extends React.Component{
                     background:'trackContain contain color-nightM',
                     heading:'track-heading heading-nightM'
                 })
-                document.body.classList.add('body-night');
             }
             if(hour >6 && hour <=14){
                 this.setState({
                     background:'trackContain contain color-morningM',
                     heading:'track-heading heading-morningM'
-                })
-                if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
-                    document.body.classList.add('body-morningM');
-                }else{
-                    document.body.classList.add('body-morning');
-                }
-                
+                })               
             }
             if(hour >14 && hour <20){
                 this.setState({
                     background:'trackContain contain color-eveningM',
                     heading:'track-heading heading-eveningM'
                 })
-                document.body.classList.add('body-evening');
             }     
         }
         
@@ -88,7 +76,6 @@ class tracks extends React.Component{
                 <div className="track-title">{item.title}</div>
                 </div>
             })}
-
                </div>
                
                 
