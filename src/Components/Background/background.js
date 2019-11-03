@@ -56,7 +56,7 @@ class Scene extends React.Component{
                 <div id="github">
                     <h3 className="text-adjust github-text animated one fadeInUp slow">HACK ON HILLS</h3>
                     <h5 className="textadjust animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
-                    <h6 className="textadjust animated one fadeIn slow delay-1s">13 - 15 March 2020</h6> 
+                    <h6 className="textadjust animated one fadeIn slow delay-1s">13th - 15th March 2020</h6> 
                 </div>
 
                 <div className="Apply">
