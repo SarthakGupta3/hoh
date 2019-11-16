@@ -93,6 +93,13 @@ class sponsors extends React.Component{
                </div>
                 
             </div>
+                <h2 className={this.state.heading}>Interested in being our sponsor?</h2>
+                <div className="Sponsor-us">
+                    <a href="https://hackonhills.typeform.com/to/XLGvG9" target="blank" id="sponsor-us">Sponsor Us</a>
+                </div>
+                {/* <div className="Apply">
+                    <a href="#devfolio" id="register">Register</a>
+                </div> */}
             </div>
             
         )
