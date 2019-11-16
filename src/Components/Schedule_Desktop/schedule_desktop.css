@@ -1,4 +1,15 @@
 .schedule_desktop{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    height:50vh;
+    justify-content:center;
+    align-items: center;
+}
+.temp-head{
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.8rem;
+    font-weight: 600;
+    color:grey;
 }

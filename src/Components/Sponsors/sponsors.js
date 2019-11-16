@@ -37,39 +37,45 @@ class sponsors extends React.Component{
         if(!/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)){
             if(hour >= 20 || hour <=6){
                 this.setState({
-                    background:'trackContain  sponsor-color-night', 
-                    heading:'track-heading sponsor-heading sponsor-heading-night'
+                    background:'trackContain sponsorContain sponsor-color-night', 
+                    heading:'track-heading sponsor-heading sponsor-heading-night',
+                    interested:'interested-heading sponsor-heading-night'
                 })
             }
             if(hour >6 && hour <=14){
                 this.setState({
-                    background:'trackContain  sponsor-color-morning',
-                    heading:'track-heading sponsor-heading sponsor-heading-morning'
+                    background:'trackContain sponsorContain sponsor-color-morning',
+                    heading:'track-heading sponsor-heading sponsor-heading-morning',
+                    interested:'interested-heading sponsor-heading-morning'
                 })
             }
             if(hour >14 && hour <20){
                 this.setState({
-                    background:'trackContain sponsor-color-evening', 
-                    heading:'track-heading sponsor-heading sponsor-heading-evening'
+                    background:'trackContain sponsorContain sponsor-color-evening', 
+                    heading:'track-heading sponsor-heading sponsor-heading-evening',
+                    interested:'interested-heading sponsor-heading-evening'
                 })
             }
         }else{
             if(hour >= 20 || hour <=6){
                 this.setState({
                     background:'trackContain sponsorContain sponsor-color-nightM', 
-                    heading:'track-heading sponsor-heading sponsor-heading-nightM'
+                    heading:'track-heading sponsor-heading sponsor-heading-nightM',
+                    interested:'interested-heading sponsor-heading-nightM'
                 })
             }
             if(hour >6 && hour <=14){
                 this.setState({
                     background:'trackContain sponsorContain sponsor-color-morningM',
-                    heading:'track-heading sponsor-heading sponsor-heading-morningM'
+                    heading:'track-heading sponsor-heading sponsor-heading-morningM',
+                    interested:'interested-heading sponsor-heading-morningM'
                 })
             }
             if(hour >14 && hour <20){
                 this.setState({
                     background:'trackContain sponsorContain sponsor-color-eveningM', 
-                    heading:'track-heading sponsor-heading sponsor-heading-eveningM'
+                    heading:'track-heading sponsor-heading sponsor-heading-eveningM',
+                    interested:'interested-heading sponsor-heading-eveningM'
                 })
             }
         }
@@ -93,7 +99,7 @@ class sponsors extends React.Component{
                </div>
                 
             </div>
-                <h3 className={this.state.heading}>Interested in being our sponsor?</h3>
+                <h3 className={this.state.interested}>Interested in being our sponsor?</h3>
                 <div className="Sponsor-us">
                     <a href="https://hackonhills.typeform.com/to/XLGvG9" target="blank" id="sponsor-us">Sponsor Us</a>
                 </div>

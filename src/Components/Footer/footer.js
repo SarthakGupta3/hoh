@@ -52,9 +52,11 @@ class Footer extends React.Component{
                 <div className="links-ico">
                     <div className="nav-icons">
                         <a href="https://instagram.com/hackonhills?igshid=1v08cqj5kzwxp" className={this.state.icon} target="_blank"><i className="fab fa-instagram fa-lg"></i></a>
-                        <a href="telegram" className={this.state.icon}><i className="fab fa-telegram-plane fa-lg"></i></a>
                         <a href="https://www.facebook.com/hackonhills/" className={this.state.icon} target="_blank"><i className="fab fa-facebook fa-lg"></i></a>
-                        <a href="twitter" className={this.state.icon}><i className="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/company/hack-on-hills/" className={this.state.icon} target="_blank"> <i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a href="https://twitter.com/hackonhills" target="_blank"  className={this.state.icon}><i className="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://www.thegoodindian.in/2019/03/what-it-takes-to-organise-hackathon.html" target="_blank" className={this.state.icon}><i class="fab fa-blogger-b fa-lg"></i></a>
+                        <a href="https://t.me/hackonhills" target="_blank" className={this.state.icon}><i className="fab fa-telegram-plane fa-lg"></i></a>
                     </div>
                     <div className="codeofconduct">
                       <a href="https://hackcodeofconduct.org/1232-hack_on_hills" className="codeofconducthref" target="_blank">Code of Conduct</a>

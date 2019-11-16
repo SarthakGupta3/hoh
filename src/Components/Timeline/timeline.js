@@ -71,71 +71,71 @@ class prizes extends React.Component{
             <div className="Timeline swiper-wrapper">
                 <div className={this.state.background}>
                 <div className="Schedule-day">
-                    <p className="Day-current">17th march</p>
+                    <p className="Day-current">13th march</p>
                 </div>
                 <div className="Schedule-items">
                     <div className={this.state.item}>
-                        <h4 className="item-head">4:00 PM</h4>
-                        <p className="item-text">Inaugration</p>
+                        <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p className="item-text">Schedule + Rules of Events</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">6:00 PM - 7:00 PM</h4>
-                        <p className="item-text">Doubts and Team formation discussions</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p className="item-text">Schedule + Rules of Events</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                 </div> 
                 </div>
 
                 <div className={this.state.background}>
                 <div className="Schedule-day">
-                    <p className="Day-current">17th march</p>
+                    <p className="Day-current">14th march</p>
                 </div>
                 <div className="Schedule-items">
                     <div className={this.state.item}>
-                        <h4 className="item-head">4:00 PM</h4>
-                        <p className="item-text">Inaugration</p>
+                        <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p className="item-text">Schedule + Rules of Events</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">6:00 PM - 7:00 PM</h4>
-                        <p className="item-text">Doubts and Team formation discussions</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p className="item-text">Schedule + Rules of Events</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                 </div> 
                 </div>
                 <div className={this.state.background}>
                 <div className="Schedule-day">
-                    <p className="Day-current">17th march</p>
+                    <p className="Day-current">15th march</p>
                 </div>
                 <div className="Schedule-items">
                     <div className={this.state.item}>
-                        <h4 className="item-head">4:00 PM</h4>
-                        <p className="item-text">Inaugration</p>
+                        <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p className="item-text">Schedule + Rules of Events</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">6:00 PM - 7:00 PM</h4>
-                        <p className="item-text">Doubts and Team formation discussions</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                     <div className={this.state.item}>
-                    <h4 className="item-head">4:00 PM - 4:30 PM</h4>
-                        <p className="item-text">Schedule + Rules of Events</p>
+                    <h4 className="item-head">Coming Soon</h4>
+                        <p className="item-text">Event Description</p>
                     </div>
                 </div> 
                 </div>

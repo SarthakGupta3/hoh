@@ -10,6 +10,7 @@
 }
 .sponsorContain{
     margin:2.5rem auto;
+    padding-bottom:3rem;
 }
 .sponsorMargin{
     width:100%;
@@ -120,4 +121,12 @@
 }
 .sponsor-heading-morningM{
     color: white;
+}
+.interested-heading{
+    display: flex;
+    justify-content: center;
+    padding-top:2rem;
+    font-size:1.9rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }

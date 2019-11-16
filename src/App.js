@@ -11,7 +11,8 @@ import Footer from './Components/Footer/footer';
 import Info from './Components/Info/info';
 import Mountain from './Components/mountains/mountains';
 import Splash from './Components/Splash/splash';
-import AboutM from './Components/About-mobile/about-mobile'
+import AboutM from './Components/About-mobile/about-mobile';
+import ScheduleDesktop from './Components/Schedule_Desktop/schedule';
 
 
 import AOS from 'aos';
@@ -57,7 +58,7 @@ class App extends React.Component{
         <SceneMobile/>
         <AboutM/>
           <Tracks/>
-          {/* <Timeline/> */}
+          <Timeline/>
           <Sponsors/>
           <FAQ/>   
           <Footer />   
@@ -74,6 +75,7 @@ class App extends React.Component{
        <div className="content">
           <About/>
           <Tracks/>
+          <ScheduleDesktop/>
           <Sponsors />
           <FAQ/>
           <Footer />
