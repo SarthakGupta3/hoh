@@ -30,7 +30,7 @@ import bugsee from '../../images/bugsee.png';
 
 class sponsors extends React.Component{
     state={
-        items:[ebizOn,Devfolio,Simba,hasura,Matic,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickermule,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee]
+        items:[ebizOn,Devfolio,Simba,hasura,Matic,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee]
     }
     componentWillMount(){
         let hour = new Date().getHours();
@@ -94,6 +94,7 @@ class sponsors extends React.Component{
                 {this.state.items.map(item => {
                 return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>
             })}
+                <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://www.stickermule.com/en-in" alt=""><img className="sponsor-image" src={stickermule} alt=""></img></a></div>
                 </div>
            
                </div>
