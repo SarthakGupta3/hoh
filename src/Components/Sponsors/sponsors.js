@@ -94,7 +94,7 @@ class sponsors extends React.Component{
                 {this.state.items.map(item => {
                 return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>
             })}
-                <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://www.stickermule.com/en-in" alt=""><img className="sponsor-image" src={stickermule} alt=""></img></a></div>
+                <div className="sponsor" id={Math.random()}><a className="tempMule" href="http://www.stickermule.com/supports/hackonhills-2019" alt=""><img className="sponsor-image" src={stickermule} alt=""></img></a></div>
                 </div>
            
                </div>
