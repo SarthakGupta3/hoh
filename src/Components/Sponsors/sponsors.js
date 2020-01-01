@@ -30,7 +30,8 @@ import bugsee from '../../images/bugsee.png';
 
 class sponsors extends React.Component{
     state={
-        items:[ebizOn,Devfolio,Simba,hasura,Matic,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee]
+        items:[ebizOn,Devfolio,Simba,hasura,Matic,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
+        current:[Devfolio,metabrainz,Matic]
     }
     componentWillMount(){
         let hour = new Date().getHours();
@@ -83,27 +84,31 @@ class sponsors extends React.Component{
     }
 
     render(){
-        return(
+        return  (
             <div className={this.state.background} id="sponsors">
                 
             <div className="tracks hidden">
-            <h1 className={this.state.heading}>PAST SPONSORS</h1>
+            {(this.props.type !== 'current') ?  <h1 className={this.state.heading}>PAST SPONSORS</h1> :  <h1 className={this.state.heading}>SPONSORS</h1>} 
                 <div className="background-white">
                 <h2 id="sponsorHeadContain"><img id="sponsorHead" src={Github} alt=""></img></h2>
                 <div className="margin sponsorMargin">
-                {this.state.items.map(item => {
-                return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>
-            })}
+
+            {(this.props.type!=='current') ? this.state.items.map(item => {
+                return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>}) : this.state.current.map(item => {
+                return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>})}
+
                 <div className="sponsor" id={Math.random()}><a className="tempMule" href="http://www.stickermule.com/supports/hackonhills-2019" alt=""><img className="sponsor-image" src={stickermule} alt=""></img></a></div>
                 </div>
            
                </div>
                 
             </div>
-                <h3 className={this.state.interested}>Interested in being our sponsor?</h3>
-                <div className="Sponsor-us">
-                    <a href="https://hackonhills.typeform.com/to/XLGvG9" target="blank" id="sponsor-us">Sponsor Us</a>
-                </div>
+            {this.props.type === 'current' ? <div>
+            <h3 className={this.state.interested}>Interested in being our sponsor?</h3>
+           <div className="Sponsor-us">
+               <a href="https://hackonhills.typeform.com/to/XLGvG9" target="blank" id="sponsor-us">Sponsor Us</a>
+           </div>
+       </div> : null}
                 {/* <div className="Apply">
                     <a href="#devfolio" id="register">Register</a>
                 </div> */}

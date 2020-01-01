@@ -13,6 +13,7 @@ class Scene extends React.Component{
     state={
         mountain:null
     }
+
     componentWillMount(){
         let hour = new Date().getHours();
         if(hour >= 20 || hour <=6){
@@ -44,13 +45,6 @@ class Scene extends React.Component{
         return(
         <div className={this.state.background}>
                 <Navbar/>
-                {/* <img id="bigMountain" src={this.state.mountain} alt=""></img>
-                <img id="mediumMountain" src={this.state.mountain} alt=""></img>
-                <img id="tallTree1" src={Tree} alt=""></img>
-                <img id="mediumTree1" src={Tree} alt=""></img>
-                <img id="tallTree2" src={Tree} alt=""></img>
-                <img id="mediumTree2" src={Tree} alt=""></img>
-                <img id="mediumTree3" src={Tree} alt=""></img>   */}
                 {(this.state.stars) ? <div id="stars"></div> : null}
                 {(this.state.sun) ? <div id="sun"></div> : null}
                 <div id="github">
@@ -60,7 +54,7 @@ class Scene extends React.Component{
                 </div>
 
                 <div className="Apply">
-                    <a href="#devfolio" id="register">Register</a>
+                <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style={{height:24+'px',width:24+'px',marginRight:8+'px'}}><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button>
                 </div>
                 {/* <img src={logo} alt="" className="hoh-logo"></img> */}
         </div>);

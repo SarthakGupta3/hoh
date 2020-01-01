@@ -59,6 +59,7 @@ class App extends React.Component{
         <AboutM/>
           <Tracks/>
           <Timeline/>
+          <Sponsors type={'current'}/>
           <Sponsors/>
           <FAQ/>   
           <Footer />   
@@ -76,6 +77,7 @@ class App extends React.Component{
           <About/>
           <Tracks/>
           <ScheduleDesktop/>
+          <Sponsors type={'current'}/>
           <Sponsors />
           <FAQ/>
           <Footer />
