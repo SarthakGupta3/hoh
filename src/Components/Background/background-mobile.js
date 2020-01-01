@@ -73,7 +73,7 @@ class SceneMobile extends React.Component{
                 <div id="githubM">
                     <h3 className="text-adjustM github-textM animated one fadeInUp slow">HACK ON HILLS</h3>
                     <h5 className="textadjustM animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
-                    <h6 className="textadjustM animated one fadeIn slow delay-1s">13th - 15th March 2020</h6> 
+                    <h6 className="textadjustM animated one fadeIn slow delay-1s">3rd - 5th April 2020</h6> 
                 </div>
 
                 <div className="Apply">
