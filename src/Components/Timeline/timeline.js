@@ -71,7 +71,7 @@ class prizes extends React.Component{
             <div className="Timeline swiper-wrapper">
                 <div className={this.state.background}>
                 <div className="Schedule-day">
-                    <p className="Day-current">13th march</p>
+                    <p className="Day-current">3rd April</p>
                 </div>
                 <div className="Schedule-items">
                     <div className={this.state.item}>
@@ -95,7 +95,7 @@ class prizes extends React.Component{
 
                 <div className={this.state.background}>
                 <div className="Schedule-day">
-                    <p className="Day-current">14th march</p>
+                    <p className="Day-current">4th April</p>
                 </div>
                 <div className="Schedule-items">
                     <div className={this.state.item}>
@@ -118,7 +118,7 @@ class prizes extends React.Component{
                 </div>
                 <div className={this.state.background}>
                 <div className="Schedule-day">
-                    <p className="Day-current">15th march</p>
+                    <p className="Day-current">5th April</p>
                 </div>
                 <div className="Schedule-items">
                     <div className={this.state.item}>
