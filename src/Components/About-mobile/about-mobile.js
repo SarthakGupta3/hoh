@@ -29,7 +29,7 @@ class aboutM extends React.Component{
     }
     render(){
         return(
-            <div className="about-mobile">
+            <div id="about" className="about-mobile">
             <h1 className="about-heading">ABOUT</h1>
                 <Prizes/>   
                 <div>
