@@ -29,7 +29,7 @@ class Navbar extends React.Component{
                 <div className="navbar-ico close-display close-menu"><i className="close_menu far fa-times-circle fa-lg"></i></div>
                 <div className="menu">
                     <a href="#home" className="Link click animated one tada"> Home</a>
-                    <a href="#about" className="Link click animated one tada">About</a>
+                    <a href="#about-info" className="Link click animated one tada">About</a>
                     <a href="#tracks" className="Link click animated one tada">Tracks</a>
                     <a href="#schedule" className="Link click animated one tada">Schedule</a>
                     <a href="#sponsors" className="Link click animated one tada">Sponsors</a>
