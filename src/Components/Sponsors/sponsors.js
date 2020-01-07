@@ -31,7 +31,7 @@ import bugsee from '../../images/bugsee.png';
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[metabrainz]
+        current:[metabrainz,zulip,bugsee]
     }
     componentWillMount(){
         let hour = new Date().getHours();

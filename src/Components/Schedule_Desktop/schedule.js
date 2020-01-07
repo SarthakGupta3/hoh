@@ -3,7 +3,7 @@ import './schedule_desktop.css';
 class Schedule_Desktop extends React.Component{
     render(){
         return(
-            <div className="schedule_desktop">
+            <div id="schedule" className="schedule_desktop">
                 <h1 className="timeline-head">SCHEDULE</h1>
                 <h3 className="temp-head">Coming Soon</h3>
             </div>

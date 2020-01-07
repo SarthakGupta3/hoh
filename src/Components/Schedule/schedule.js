@@ -4,7 +4,7 @@ import './Schedule.css';
 class Schedule extends React.Component{
     render(){
         return(
-            <div>
+            <div id="schedule">
                 <h1 className="schedule-head">SCHEDULE</h1>
                 <div className="Schedule-card">
                 <div className="Schedule-day">
