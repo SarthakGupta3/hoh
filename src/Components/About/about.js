@@ -33,7 +33,7 @@ class About extends React.Component{
         return  (
             <div className="info-section">
                 <div className="about-row-1">
-             <div id="about">
+             <div id="about-info">
                  <div className="about-contain about-background swiper-container">
                 <div className="swiper-wrapper">
                 {this.state.images.map(image => {
