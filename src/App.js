@@ -74,7 +74,7 @@ class App extends React.Component{
           <Tracks/>
           <ScheduleDesktop/>
           <Sponsors type={'current'}/>
-          <Sponsors />
+          {/* <Sponsors /> */}
           <FAQ/>
           <Footer />
        </div>
