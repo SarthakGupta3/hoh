@@ -33,7 +33,7 @@ import ubidots from '../../images/ubidots.png';
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[metabrainz,zulip,bugsee,balasmiq,ubidots]
+        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:zulip,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();
@@ -95,14 +95,13 @@ class sponsors extends React.Component{
                 <h2 id="sponsorHeadContain"><img id="sponsorHead" src={Github} alt=""></img></h2>
                 <div className="margin sponsorMargin">
 
-                <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://devfolio.co" alt=""><img className="sponsor-image" src={Devfolio} alt=""></img></a></div>
-                <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://matic.network" alt=""><img className="sponsor-image" src={Matic} alt=""></img></a></div>
+                {/* <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://devfolio.co" alt=""><img className="sponsor-image" src={Devfolio} alt=""></img></a></div>
+                <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://matic.network" alt=""><img className="sponsor-image" src={Matic} alt=""></img></a></div> */}
 
             {(this.props.type!=='current') ? this.state.items.map(item => {
                 return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>}) : this.state.current.map(item => {
-                return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>})}
-
-                <div className="sponsor" id={Math.random()}><a className="tempMule" href="http://www.stickermule.com/supports/hackonhills-2019" alt=""><img className="sponsor-image" src={stickermule} alt=""></img></a></div>
+                return <div className="sponsor" id={Math.random()}><a className="tempMule" href={item.link} alt=""><img className="sponsor-image" src={item.sponsor} alt=""></img></a></div>})}
+                {/* <div className="sponsor" id={Math.random()}><a className="tempMule" href="http://www.stickermule.com/supports/hackonhills-2019" alt=""><img className="sponsor-image" src={stickermule} alt=""></img></a></div> */}
                 </div>
                </div>
                 
