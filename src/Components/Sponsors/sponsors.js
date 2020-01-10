@@ -26,12 +26,14 @@ import producthunt from '../../images/product-hunt.png';
 import sketch from '../../images/sketch.png';
 import creativeTim from '../../images/creativeTim.png';
 import bugsee from '../../images/bugsee.png';
+import balasmiq from '../../images/balsamiq.png';
+import ubidots from '../../images/ubidots.png';
 
 
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[metabrainz,zulip,bugsee]
+        current:[metabrainz,zulip,bugsee,balasmiq,ubidots]
     }
     componentWillMount(){
         let hour = new Date().getHours();

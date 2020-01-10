@@ -60,17 +60,13 @@ class App extends React.Component{
           <Tracks/>
           <Timeline/>
           <Sponsors type={'current'}/>
-          <Sponsors/>
+          {/* <Sponsors/> */}
           <FAQ/>   
           <Footer />   
       </div>
     ) : (<div className="App desktop">
        <Scene/>
        <div className="gradients">
-        {/* <div className="gradient1"></div>
-        <div className="gradient2"></div>
-        <div className="gradient3"></div>
-        <div className="gradient4"></div> */}
        </div>
        
        <div className="content">
