@@ -28,12 +28,13 @@ import creativeTim from '../../images/creativeTim.png';
 import bugsee from '../../images/bugsee.png';
 import balasmiq from '../../images/balsamiq.png';
 import ubidots from '../../images/ubidots.png';
+import rpabot from '../../images/botpro.png'
 
 
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'}]
+        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();

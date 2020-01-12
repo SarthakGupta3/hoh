@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca263941553da73e69bec449fc5f30e9",
+    "revision": "347ca2192b6b089a14e3200bcade8144",
     "url": "./index.html"
   },
   {
-    "revision": "22371242f7fd27a4d173",
-    "url": "./static/css/main.7439aad5.chunk.css"
+    "revision": "da4bc5128dd2c9c26c57",
+    "url": "./static/css/main.81c2817f.chunk.css"
   },
   {
-    "revision": "658b2d0c0bdc4f6a7fb3",
-    "url": "./static/js/2.99bcf301.chunk.js"
+    "revision": "14f85244cc9db057b71d",
+    "url": "./static/js/2.eac6ec57.chunk.js"
   },
   {
-    "revision": "22371242f7fd27a4d173",
-    "url": "./static/js/main.f5558806.chunk.js"
+    "revision": "da4bc5128dd2c9c26c57",
+    "url": "./static/js/main.ee602120.chunk.js"
   },
   {
     "revision": "4c6a72c48998f4e1574f",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e2d58d2f6b26fa977d3946f08040b9e",
     "url": "./static/media/blockchain.2e2d58d2.png"
+  },
+  {
+    "revision": "473cc6761560a737d20cdea87b8d6040",
+    "url": "./static/media/botpro.473cc676.png"
   },
   {
     "revision": "c4938cc88b67882fe1bdcbfa2328817a",
