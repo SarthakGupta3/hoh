@@ -32,12 +32,13 @@ import rpabot from '../../images/botpro.png';
 import cloudsploit from '../../images/cloudsploit.png';
 import iconscout from '../../images/iconscout.png';
 import fsfe from '../../images/fsfe.png';
-
+import linode from '../../images/linode.png';
+import challengeRocket from '../../images/challengerocket.png';
 
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'#'},{sponsor:ohcampus,link:'#'},{sponsor:cloudsploit,link:'#'},{sponsor:iconscout,link:'#'},{sponsor:fsfe,link:'#'}]
+        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:linode,link:'#'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'#'},{sponsor:ohcampus,link:'#'},{sponsor:cloudsploit,link:'#'},{sponsor:iconscout,link:'#'},{sponsor:fsfe,link:'#'},{sponsor:creativeTim,link:'#'},{sponsor:challengeRocket,link:'#'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();
@@ -97,6 +98,7 @@ class sponsors extends React.Component{
             {(this.props.type !== 'current') ?  <h1 className={this.state.heading}>PAST SPONSORS</h1> :  <h1 className={this.state.heading}>SPONSORS</h1>} 
                 <div className="background-white">
                 <h2 id="sponsorHeadContain"><img id="sponsorHead" src={Github} alt=""></img></h2>
+                {/* <h2 id="sponsorHeadContain"><img className="size_adjust" src={Devfolio} alt=""></img></h2> */}
                 <div className="margin sponsorMargin">
 
                 {/* <div className="sponsor" id={Math.random()}><a className="tempMule" href="https://devfolio.co" alt=""><img className="sponsor-image" src={Devfolio} alt=""></img></a></div>

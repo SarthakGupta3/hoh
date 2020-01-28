@@ -5,6 +5,11 @@
     height:7.5rem
 }
 
+.size_adjust{
+    width:30%;
+    height:4rem;
+}
+
 .sponsor{
     background-color:transparent;
     margin: 0.2rem 2rem;
@@ -29,6 +34,7 @@
     max-height:100%;
     object-fit: contain;
 }
+
 #sponsorHead{
     width:50%;
     height:5rem;
