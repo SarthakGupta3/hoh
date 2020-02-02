@@ -45,7 +45,7 @@ class aboutM extends React.Component{
                 <img src={diversity} alt="" className="diversity-mobile"></img>
                 </div>
                 <p className="about-data about-dataM">
-             It provides an opportunity to all the coders, developers and hackers to showcase their inventiveness through technology. It brings together talented performance and recruiters, data scientists, engineers, developers and field experts.
+                Steps had been taken to make this event more inclusive towards female participants. To encourage this, every year a special diversity prize is awarded to all female team. Moreover, some percentage of seats are reserved for females. In the last iteration, an overwhelming participation of 45+ females has been observed with 3 diversity teams.
              </p>
             </div>
         )

@@ -7,6 +7,7 @@ import blockchain from '../../images/blockchain.png';
 import web from '../../images/web.png';
 import xr from '../../images/vr.png';
 import iot from '../../images/IOT.png';
+import automation from '../../images/automation.svg';
 
 
 class tracks extends React.Component{
@@ -16,7 +17,8 @@ class tracks extends React.Component{
         {item:web, title:'Web'},
         {item:xr, title:'AR/VR'},
         {item:iot, title:'IOT'},
-        {item:general, title:'General'}]
+        {item:general, title:'General'},
+        {item:automation, title:'College Automation'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();
