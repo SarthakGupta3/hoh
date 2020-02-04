@@ -35,11 +35,12 @@ import fsfe from '../../images/fsfe.png';
 import linode from '../../images/linode.png';
 import challengeRocket from '../../images/challengerocket.png';
 import dev from '../../images/dev.jpeg';
+import fold from '../../images/fold.png';
 
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:linode,link:'#'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'#'},{sponsor:ohcampus,link:'#'},{sponsor:cloudsploit,link:'#'},{sponsor:iconscout,link:'#'},{sponsor:fsfe,link:'#'},{sponsor:creativeTim,link:'#'},{sponsor:challengeRocket,link:'#'},{sponsor:dev,link:'https://dev.to/'}]
+        current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:linode,link:'#'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'#'},{sponsor:bugsee,link:'#'},{sponsor:balasmiq,link:'#'},{sponsor:ubidots,link:'#'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'#'},{sponsor:ohcampus,link:'#'},{sponsor:cloudsploit,link:'#'},{sponsor:iconscout,link:'#'},{sponsor:fsfe,link:'#'},{sponsor:creativeTim,link:'#'},{sponsor:challengeRocket,link:'#'},{sponsor:dev,link:'https://dev.to/'},{sponsor:fold,link:'https://fold.money'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();

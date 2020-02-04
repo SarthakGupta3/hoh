@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fa28466187e9936316d69ee518eae52",
+    "revision": "25069194017e6154987021ed585727a1",
     "url": "./index.html"
   },
   {
-    "revision": "9bba1f0497f12785b889",
+    "revision": "002420c0eb0530248930",
     "url": "./static/css/main.76d8c589.chunk.css"
   },
   {
-    "revision": "ca817b0454ffc2741a9d",
-    "url": "./static/js/2.017adfa2.chunk.js"
+    "revision": "b64642012b918e30c8c6",
+    "url": "./static/js/2.f4a29bec.chunk.js"
   },
   {
-    "revision": "9bba1f0497f12785b889",
-    "url": "./static/js/main.8c77bdf6.chunk.js"
+    "revision": "002420c0eb0530248930",
+    "url": "./static/js/main.de00569b.chunk.js"
   },
   {
     "revision": "4c6a72c48998f4e1574f",
@@ -106,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ecddd94058295859513ee010c138a5b3",
     "url": "./static/media/evening_desktop.ecddd940.png"
+  },
+  {
+    "revision": "d82971327c8aa8a336e46a4fb0baa527",
+    "url": "./static/media/fold.d8297132.png"
   },
   {
     "revision": "74ae1df884c0c8b2a4a796d9c5e7032b",
