@@ -1,6 +1,18 @@
 body{
     font-family: 'Manjari', sans-serif;
 }
+.black{
+    color:black;
+    padding:0.75rem;
+    padding-top:0;
+    padding-bottom:0;
+}
+.white{
+    padding-top:0;
+    padding-bottom:0;
+    color:white;
+    padding:0.75rem;
+}
 .night{
    background-image: url('../../images/night_desktop.gif');
     background-size: cover;

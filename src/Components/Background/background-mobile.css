@@ -5,6 +5,18 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.black{
+    color:black;
+    padding:0.75rem;
+    padding-top:0;
+    padding-bottom:0;
+}
+.white{
+    color:white;
+    padding:0.75rem;
+    padding-top:0;
+    padding-bottom:0;
+}
 
 .eveningM{
     color:black;

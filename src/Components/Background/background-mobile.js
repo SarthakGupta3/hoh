@@ -22,7 +22,9 @@ class SceneMobile extends React.Component{
                 mountain:mountainNight,
                 stars:true,
                 background:'nightM SceneHolderM',
-                sun:false
+                sun:false,
+                LocationColor:'fas fa-map-marker-alt white',
+                timeIcon:'fas fa-calendar-alt white'
             })
         }
         if(hour >6 && hour <=14){
@@ -30,7 +32,9 @@ class SceneMobile extends React.Component{
                 mountain:mountainDay,
                 stars:false,
                 background:'dayM SceneHolderM',
-                sun:false
+                sun:false,
+                LocationColor:'fas fa-map-marker-alt black',
+                timeIcon:'fas fa-calendar-alt black'
             })
         }
         if(hour >14 && hour <20){
@@ -38,7 +42,9 @@ class SceneMobile extends React.Component{
                 mountain:mountainEvening,
                 stars:true,
                 background:'eveningM SceneHolderM',
-                sun:false
+                sun:false,
+                LocationColor:'fas fa-map-marker-alt black',
+                timeIcon:'fas fa-calendar-alt black'
             })
         }
     }
@@ -72,8 +78,8 @@ class SceneMobile extends React.Component{
                 
                 <div id="githubM">
                     <h3 className="text-adjustM github-textM animated one fadeInUp slow">HACK ON HILLS</h3>
-                    <h5 className="textadjustM animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
-                    <h6 className="textadjustM animated one fadeIn slow delay-1s">3rd - 5th April 2020</h6> 
+                    <h5 className="textadjustM animated one fadeIn slow delay-1s"><i class={this.state.LocationColor}></i>NIT HAMIRPUR</h5>
+                    <h6 className="textadjustM animated one fadeIn slow delay-1s"><i class={this.state.timeIcon}></i>3rd - 5th April 2020</h6> 
                 </div>
 
                 <div className="Apply">

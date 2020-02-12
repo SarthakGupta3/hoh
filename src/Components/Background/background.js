@@ -5,9 +5,7 @@ import './background.css';
 import mountainDay from '../../images/mountain_day.svg';
 import mountainEvening from '../../images/mountain_evening.svg';
 import mountainNight from '../../images/mountain_night.svg';
-import Tree from '../../images/tall_tree.svg';
 import Navbar from '../Navbar/navbar';
-import logo from '../../images/hoh.png';
 
 class Scene extends React.Component{
     state={
@@ -21,7 +19,9 @@ class Scene extends React.Component{
                 mountain:mountainNight,
                 stars:true,
                 background:'night SceneHolder',
-                sun:false
+                sun:false,
+                LocationColor:'fas fa-map-marker-alt white',
+                timeIcon:'fas fa-calendar-alt white'
             })
         }
         if(hour >6 && hour <=14){
@@ -29,7 +29,9 @@ class Scene extends React.Component{
                 mountain:mountainDay,
                 stars:false,
                 background:'day SceneHolder',
-                sun:false
+                sun:false,
+                LocationColor:'fas fa-map-marker-alt black',
+                timeIcon:'fas fa-calendar-alt black'
             })
         }
         if(hour >14 && hour <20){
@@ -37,7 +39,9 @@ class Scene extends React.Component{
                 mountain:mountainEvening,
                 stars:true,
                 background:'evening SceneHolder',
-                sun:false
+                sun:false,
+                LocationColor:'fas fa-map-marker-alt black',
+                timeIcon:'fas fa-calendar-alt black'
             })
     }
     }
@@ -49,8 +53,8 @@ class Scene extends React.Component{
                 {(this.state.sun) ? <div id="sun"></div> : null}
                 <div id="github">
                     <h3 className="text-adjust github-text animated one fadeInUp slow">HACK ON HILLS</h3>
-                    <h5 className="textadjust animated one fadeIn slow delay-1s">NIT HAMIRPUR</h5>
-                    <h6 className="textadjust animated one fadeIn slow delay-1s">3rd - 5th April 2020</h6> 
+                    <h5 className="textadjust animated one fadeIn slow delay-1s"><i class={this.state.LocationColor}></i>NIT HAMIRPUR</h5>
+                    <h6 className="textadjust animated one fadeIn slow delay-1s"><i class={this.state.timeIcon}></i>3rd - 5th April 2020</h6> 
                 </div>
 
                 <div className="Apply">
