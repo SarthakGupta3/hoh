@@ -30,8 +30,8 @@ class Scene extends React.Component{
                 stars:false,
                 background:'day SceneHolder',
                 sun:false,
-                LocationColor:'fas fa-map-marker-alt black',
-                timeIcon:'fas fa-calendar-alt black'
+                LocationColor:'fas fa-map-marker-alt white',
+                timeIcon:'fas fa-calendar-alt white'
             })
         }
         if(hour >14 && hour <20){
