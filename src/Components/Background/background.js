@@ -40,8 +40,8 @@ class Scene extends React.Component{
                 stars:true,
                 background:'evening SceneHolder',
                 sun:false,
-                LocationColor:'fas fa-map-marker-alt black',
-                timeIcon:'fas fa-calendar-alt black'
+                LocationColor:'fas fa-map-marker-alt white',
+                timeIcon:'fas fa-calendar-alt white'
             })
     }
     }
