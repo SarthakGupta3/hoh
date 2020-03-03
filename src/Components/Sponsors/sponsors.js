@@ -44,7 +44,7 @@ class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
         current:[{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:linode,link:'https://www.linode.com/'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'https://metabrainz.org/'},{sponsor:digitalOcean,link:'https://www.digitalocean.com/'},
-        {sponsor:gfg,link:''},{sponsor:bugsee,link:'https://www.bugsee.com/'},{sponsor:balasmiq,link:'https://balsamiq.com/'},{sponsor:ubidots,link:'https://ubidots.com/'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'https://www.hellointern.com/'},{sponsor:ohcampus,link:'https://ohcampus.com/'},{sponsor:cloudsploit,link:'https://cloudsploit.com/'},{sponsor:dev,link:'https://dev.to/'},{sponsor:iconscout,link:'https://iconscout.com/'},{sponsor:fsfe,link:'https://fsfe.org/index.en.html'},{sponsor:creativeTim,link:'https://www.creative-tim.com/'},{sponsor:challengeRocket,link:'http://bit.ly/ChallengeRocket2k20'},{sponsor:fold,link:'https://fold.money'}, {sponsor:stickerapp,link:'https://stickerapp.com/'}]
+        {sponsor:gfg,link:''},{sponsor:bugsee,link:'https://www.bugsee.com/'},{sponsor:balasmiq,link:'https://balsamiq.com/'},{sponsor:ubidots,link:'http://bit.ly/396oDDL'},{sponsor:CodingBlocks,link:'https://codingblocks.com/'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'https://www.hellointern.com/'},{sponsor:ohcampus,link:'https://ohcampus.com/'},{sponsor:cloudsploit,link:'https://cloudsploit.com/'},{sponsor:iconscout,link:'https://iconscout.com/'},{sponsor:fsfe,link:'https://fsfe.org/index.en.html'},{sponsor:creativeTim,link:'https://www.creative-tim.com/'},{sponsor:challengeRocket,link:'http://bit.ly/ChallengeRocket2k20'},{sponsor:fold,link:'https://fold.money'}, {sponsor:stickerapp,link:'https://stickerapp.com/'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();
@@ -113,6 +113,7 @@ class sponsors extends React.Component{
             {(this.props.type!=='current') ? this.state.items.map(item => {
                 return <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={item} alt=""></img></div>}) : this.state.current.map(item => {
                 return <div className="sponsor" id={Math.random()}><a className="tempMule" href={item.link} alt="" target="_blank"><img className="sponsor-image" src={item.sponsor} alt=""></img></a></div>})}
+                <div className="sponsor" id={Math.random()}><a className="adjust-logo" href="https://dev.to/" target="_blank"><img className="sponsor-image" src={dev} alt=""></img></a></div>
                 <div className="sponsor" id={Math.random()}><img className="sponsor-image" src={zulip} alt=""></img></div>
                 </div>
                </div>
