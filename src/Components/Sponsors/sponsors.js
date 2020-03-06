@@ -39,13 +39,13 @@ import fold from '../../images/fold.png';
 import digitalOcean from '../../images/digitalocean.png';
 import stickerapp from '../../images/stickerapp.png';
 import gfg from '../../images/gfg.png';
-import mlh from '../../images/mlh.jpg';
+import mlh from '../../images/mlh.png';
+import postman from '../../images/postman.png';
 
 class sponsors extends React.Component{
     state={
         items:[ebizOn,Simba,hasura,metabrainz,gitlab,govtlogo,CodingBlocks,roposo,quikNode,zulip,socialcops,stickwidit,DUAssassins,HelloIntern,ohcampus,producthunt,sketch,creativeTim,bugsee],
-        current:[{sponsor:mlh,link:'https://mlh.io/'},{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:linode,link:'https://www.linode.com/'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'https://metabrainz.org/'},{sponsor:digitalOcean,link:'https://www.digitalocean.com/'},
-        {sponsor:gfg,link:''},{sponsor:bugsee,link:'https://www.bugsee.com/'},{sponsor:balasmiq,link:'https://balsamiq.com/'},{sponsor:ubidots,link:'http://bit.ly/396oDDL'},{sponsor:CodingBlocks,link:'https://codingblocks.com/'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'https://www.hellointern.com/'},{sponsor:ohcampus,link:'https://ohcampus.com/'},{sponsor:cloudsploit,link:'https://cloudsploit.com/'},{sponsor:iconscout,link:'https://iconscout.com/'},{sponsor:fsfe,link:'https://fsfe.org/index.en.html'},{sponsor:creativeTim,link:'https://www.creative-tim.com/'},{sponsor:challengeRocket,link:'http://bit.ly/ChallengeRocket2k20'},{sponsor:fold,link:'https://fold.money'}, {sponsor:stickerapp,link:'https://stickerapp.com/'}]
+        current:[{sponsor:mlh,link:'https://mlh.io/'},{sponsor:Devfolio,link:'https://devfolio.co'},{sponsor:linode,link:'https://www.linode.com/'},{sponsor:Matic,link:'https://matic.network'},{sponsor:metabrainz,link:'https://metabrainz.org/'},{sponsor:digitalOcean,link:'https://www.digitalocean.com/'},{sponsor:gfg,link:''},{sponsor:postman,link:'https://www.postman.com/'},{sponsor:bugsee,link:'https://www.bugsee.com/'},{sponsor:balasmiq,link:'https://balsamiq.com/'},{sponsor:ubidots,link:'http://bit.ly/396oDDL'},{sponsor:CodingBlocks,link:'https://codingblocks.com/'},{sponsor:stickermule,link:'http://www.stickermule.com/supports/hackonhills-2019'},{sponsor:rpabot,link:'http://rpabotpro.com/'},{sponsor:HelloIntern,link:'https://www.hellointern.com/'},{sponsor:ohcampus,link:'https://ohcampus.com/'},{sponsor:cloudsploit,link:'https://cloudsploit.com/'},{sponsor:iconscout,link:'https://iconscout.com/'},{sponsor:fsfe,link:'https://fsfe.org/index.en.html'},{sponsor:creativeTim,link:'https://www.creative-tim.com/'},{sponsor:challengeRocket,link:'http://bit.ly/ChallengeRocket2k20'},{sponsor:fold,link:'https://fold.money'}, {sponsor:stickerapp,link:'https://stickerapp.com/'}]
     }
     componentWillMount(){
         let hour = new Date().getHours();
