@@ -6,6 +6,7 @@ import mountainDay from '../../images/mountain_day.svg';
 import mountainEvening from '../../images/mountain_evening.svg';
 import mountainNight from '../../images/mountain_night.svg';
 import Navbar from '../Navbar/navbar';
+import mlh from '../../images/mlh.svg';
 
 class Scene extends React.Component{
     state={
@@ -48,6 +49,7 @@ class Scene extends React.Component{
     render(){
         return(
         <div className={this.state.background}>
+        <img src={mlh} className="mlh-badge" alt=""></img>
                 <Navbar/>
                 {(this.state.stars) ? <div id="stars"></div> : null}
                 {(this.state.sun) ? <div id="sun"></div> : null}

@@ -61,6 +61,9 @@ class Footer extends React.Component{
                     <div className="codeofconduct">
                       <a href="https://hackcodeofconduct.org/1232-hack_on_hills" className="codeofconducthref" target="_blank">Code of Conduct</a>
                     </div>
+                    <div className="codeofconduct">
+                      <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="codeofconducthref" target="_blank">MLH Code of Conduct</a>
+                    </div>
                     <div className="copyright">
                         <div className="copyright-ico"><i className="far fa-copyright"></i></div>
                         <p className="adjust-text-copyright">2020 Team Hack on Hills</p>

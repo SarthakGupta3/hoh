@@ -6,9 +6,9 @@ import './background-mobile.css';
 import mountainDay from '../../images/mountain_day.svg';
 import mountainEvening from '../../images/mountain_evening.svg';
 import mountainNight from '../../images/mountain_night.svg';
-import logo from '../../images/hoh.png';
-import Tree from '../../images/tall_tree.svg';
 import Navbar from '../Navbar/navbar';
+
+import mlh from '../../images/mlh.svg';
 
 
 class SceneMobile extends React.Component{
@@ -51,6 +51,7 @@ class SceneMobile extends React.Component{
     render(){
         return(
                 <div className={this.state.background} id="home">
+                <img src={mlh} className="mlh-badgeM" alt=""></img>
                 <Navbar/>
                 {/* <img className="bigMountainM" src={this.state.mountain} alt=""></img>
                 <img className="mediumMountainM" src={this.state.mountain} alt=""></img> */}
