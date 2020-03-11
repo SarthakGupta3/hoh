@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97641d3e5549466bb30f8ee650644c37",
+    "revision": "3e4d474c565ccb756794e41d74fad3f7",
     "url": "./index.html"
   },
   {
-    "revision": "9922434e25d94b0795f9",
-    "url": "./static/css/main.6d3b325c.chunk.css"
+    "revision": "981c3bdd28730c61874f",
+    "url": "./static/css/main.2a7fe569.chunk.css"
   },
   {
-    "revision": "f41b0ec5f884094f1090",
-    "url": "./static/js/2.0842d056.chunk.js"
+    "revision": "97a71ca6679268cd83af",
+    "url": "./static/js/2.d947e5c7.chunk.js"
   },
   {
-    "revision": "9922434e25d94b0795f9",
-    "url": "./static/js/main.0d71675c.chunk.js"
+    "revision": "981c3bdd28730c61874f",
+    "url": "./static/js/main.7ef8cb54.chunk.js"
   },
   {
     "revision": "4c6a72c48998f4e1574f",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Coding_blocks.eceab1f9.png"
   },
   {
-    "revision": "2cc4a30b48e53dcf2c3db8b14d99c958",
-    "url": "./static/media/Stars.2cc4a30b.svg"
+    "revision": "5c41c69fecb18b613ce6ed31d61c2a5f",
+    "url": "./static/media/Stars.5c41c69f.svg"
   },
   {
     "revision": "1bb28b084d42d743f4c55cf451a46f84",
@@ -100,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/duAssassins.640fcad7.jpg"
   },
   {
+    "revision": "a83e241006d4a6b00b575d21682c7774",
+    "url": "./static/media/dy.a83e2410.jpeg"
+  },
+  {
     "revision": "459546f90b8a790cc4422c495a50695c",
     "url": "./static/media/ebiz.459546f9.png"
   },
@@ -140,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/hoh.1e9b310b.png"
   },
   {
-    "revision": "116af4ff4bcd43c214f77bfea021c020",
-    "url": "./static/media/iconscout.116af4ff.svg"
+    "revision": "f03ed3d94f16dc2e442954b02071d047",
+    "url": "./static/media/iconscout.f03ed3d9.svg"
   },
   {
     "revision": "f2febe0d7891932ecf11c4b2048c32da",
@@ -156,20 +160,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/morning_desktop.b649d0ac.svg"
   },
   {
-    "revision": "333d0031ced37a80cd12ec52d5034c5d",
-    "url": "./static/media/mountain_day.333d0031.svg"
+    "revision": "fa0f9bb1da11e2c2e2111fd676d70d5e",
+    "url": "./static/media/mountain_day.fa0f9bb1.svg"
   },
   {
-    "revision": "31a472aa40e18f68d848b1eac680654c",
-    "url": "./static/media/mountain_evening.31a472aa.svg"
+    "revision": "905845574d68716b084fd7ca088a6c63",
+    "url": "./static/media/mountain_evening.90584557.svg"
   },
   {
     "revision": "adc1f2178768a40eed969da8af23537a",
     "url": "./static/media/mountain_evening.adc1f217.png"
   },
   {
-    "revision": "a4260536b31289df19197605feb9c7b8",
-    "url": "./static/media/mountain_night.a4260536.svg"
+    "revision": "9917478b052df80df0cb2e1e9819e47d",
+    "url": "./static/media/mountain_night.9917478b.svg"
   },
   {
     "revision": "1800e11a9a6ce972e89dd867ba3a8d1c",
