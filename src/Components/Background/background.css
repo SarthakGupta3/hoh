@@ -26,6 +26,7 @@ body{
 .night{
    background-image: url('../../images/night_desktop.gif');
     background-size: cover;
+    color:white;
     background-position-y:75%;
     background-repeat: no-repeat;
 }
@@ -33,11 +34,13 @@ body{
 .evening{
     background-image: url('../../images/evening_desktop.png');
     background-size: cover;
+    color:white;
     background-repeat: no-repeat;
 }
 .day{
     background-image: url('../../images/morning_desktop.svg');
     background-size: cover;
+    color:white;
     background-repeat: no-repeat;
 }
 #sun{

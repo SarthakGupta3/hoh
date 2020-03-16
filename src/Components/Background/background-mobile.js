@@ -52,6 +52,7 @@ class SceneMobile extends React.Component{
         return(
                 <div className={this.state.background} id="home">
                 <img src={mlh} className="mlh-badgeM" alt=""></img>
+                <h2 className="postpone">Event postponed till further notice !</h2>
                 <Navbar/>
                 {/* <img className="bigMountainM" src={this.state.mountain} alt=""></img>
                 <img className="mediumMountainM" src={this.state.mountain} alt=""></img> */}

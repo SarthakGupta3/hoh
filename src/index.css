@@ -17,6 +17,34 @@ body,html{
   background-size: cover;
   background-attachment: scroll;
 }
+.postpone{
+  top:12%;
+  width:100%;
+  z-index:100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: move 10s linear infinite;
+}
+.postpone-desktop{
+  top:10%;
+  width:100%;
+  z-index:1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: move 15s linear infinite;
+}
+@keyframes move{
+  0%{
+    transform:translateX(100%);
+  }
+  100%{
+    transform:translateX(-100%);
+  }
+}
 body {
   position: relative;
   overflow-x:hidden; 

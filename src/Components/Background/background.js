@@ -49,6 +49,7 @@ class Scene extends React.Component{
     render(){
         return(
         <div className={this.state.background}>
+            <h1 className="postpone-desktop">Event postponed till further notice !</h1>
         <img src={mlh} className="mlh-badge" alt=""></img>
                 <Navbar/>
                 {(this.state.stars) ? <div id="stars"></div> : null}
