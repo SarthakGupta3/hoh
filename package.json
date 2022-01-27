@@ -14,7 +14,7 @@
     "slideout": "^1.0.1",
     "sweet-scroll": "^4.0.0",
     "swiper": "^4.5.0",
-    "three": "^0.108.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
